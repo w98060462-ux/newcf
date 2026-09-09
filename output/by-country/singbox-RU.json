@@ -6,26 +6,24 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 07 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 01 - wqrhwp",
+        "🇷🇺 俄罗斯 (Russia) 02 - wqrhwp",
+        "🇷🇺 俄罗斯 (Russia) 03 - wqrhwp",
+        "🇷🇺 俄罗斯 (Russia) 04 - wqrhwp",
+        "🇷🇺 俄罗斯 (Russia) 05 - wqrhwp",
+        "🇷🇺 俄罗斯 (Russia) 06 - wqrhwp"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 07 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 01 - wqrhwp",
+        "🇷🇺 俄罗斯 (Russia) 02 - wqrhwp",
+        "🇷🇺 俄罗斯 (Russia) 03 - wqrhwp",
+        "🇷🇺 俄罗斯 (Russia) 04 - wqrhwp",
+        "🇷🇺 俄罗斯 (Russia) 05 - wqrhwp",
+        "🇷🇺 俄罗斯 (Russia) 06 - wqrhwp"
       ],
       "url": "https://www.google.com/generate_204"
     },

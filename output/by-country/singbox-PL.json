@@ -6,24 +6,32 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇱 PL 01 - xiaohe",
-        "🇵🇱 PL 02 - xiaohe",
-        "🇵🇱 PL 03 - xiaohe",
-        "🇵🇱 PL 04 - xiaohe",
-        "🇵🇱 PL 05 - xiaohe",
-        "🇵🇱 PL 06 - xiaohe"
+        "🇵🇱 PL 01 - wqrhwp",
+        "🇵🇱 PL 02 - wqrhwp",
+        "🇵🇱 PL 03 - wqrhwp",
+        "🇵🇱 PL 04 - wqrhwp",
+        "🇵🇱 PL 05 - wqrhwp",
+        "🇵🇱 PL 06 - wqrhwp",
+        "🇵🇱 PL 07 - wqrhwp",
+        "🇵🇱 PL 08 - wqrhwp",
+        "🇵🇱 PL 09 - wqrhwp",
+        "🇵🇱 PL 10 - wqrhwp"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 PL 01 - xiaohe",
-        "🇵🇱 PL 02 - xiaohe",
-        "🇵🇱 PL 03 - xiaohe",
-        "🇵🇱 PL 04 - xiaohe",
-        "🇵🇱 PL 05 - xiaohe",
-        "🇵🇱 PL 06 - xiaohe"
+        "🇵🇱 PL 01 - wqrhwp",
+        "🇵🇱 PL 02 - wqrhwp",
+        "🇵🇱 PL 03 - wqrhwp",
+        "🇵🇱 PL 04 - wqrhwp",
+        "🇵🇱 PL 05 - wqrhwp",
+        "🇵🇱 PL 06 - wqrhwp",
+        "🇵🇱 PL 07 - wqrhwp",
+        "🇵🇱 PL 08 - wqrhwp",
+        "🇵🇱 PL 09 - wqrhwp",
+        "🇵🇱 PL 10 - wqrhwp"
       ],
       "url": "https://www.google.com/generate_204"
     },

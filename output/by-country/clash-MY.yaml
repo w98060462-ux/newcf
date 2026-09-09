@@ -4,7 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇲🇾 MY 01 - xiaohe
+- name: 🇲🇾 MY 01 - wqrhwp
   type: vless
   server: 38.60.168.98
   port: 2087
@@ -17,7 +17,22 @@ proxies:
     path: /db55c40bbc75
     headers:
       Host: 38.60.168.98
-- name: 🇲🇾 MY 02 - xiaohe
+- name: 🇲🇾 MY 02 - wqrhwp
+  type: vmess
+  server: 47.250.45.234
+  port: 8613
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /arki?ed=2048
+    headers:
+      Host: 47.250.45.234
+- name: 🇲🇾 MY 03 - wqrhwp
   type: vless
   server: 38.60.168.98
   port: 2087
@@ -30,7 +45,7 @@ proxies:
     path: /db55c40bbc75
     headers:
       Host: 38.60.168.98
-- name: 🇲🇾 MY 03 - xiaohe
+- name: 🇲🇾 MY 04 - wqrhwp
   type: vless
   server: 38.60.168.98
   port: 2087
@@ -48,16 +63,18 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇲🇾 MY 01 - xiaohe
-  - 🇲🇾 MY 02 - xiaohe
-  - 🇲🇾 MY 03 - xiaohe
+  - 🇲🇾 MY 01 - wqrhwp
+  - 🇲🇾 MY 02 - wqrhwp
+  - 🇲🇾 MY 03 - wqrhwp
+  - 🇲🇾 MY 04 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇲🇾 MY 01 - xiaohe
-  - 🇲🇾 MY 02 - xiaohe
-  - 🇲🇾 MY 03 - xiaohe
+  - 🇲🇾 MY 01 - wqrhwp
+  - 🇲🇾 MY 02 - wqrhwp
+  - 🇲🇾 MY 03 - wqrhwp
+  - 🇲🇾 MY 04 - wqrhwp
 rules:
 - MATCH,PROXIES
