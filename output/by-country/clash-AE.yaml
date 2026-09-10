@@ -19,18 +19,6 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 02 - wqrhwp
   type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 05819bb1-2975-473c-a51f-0fbccf8d2cfa
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
-  client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 03 - wqrhwp
-  type: vless
   server: 185.112.249.201
   port: 8443
   uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
@@ -43,9 +31,9 @@ proxies:
     path: /proxyip=bpb.yousef.isegaro.comfp=chrome
     headers:
       Host: web-socket.tgdaosheng.ggff.net
-- name: 🇦🇪 阿联酋 (UAE) 04 - wqrhwp
+- name: 🇦🇪 阿联酋 (UAE) 03 - wqrhwp
   type: vless
-  server: uae.unixzone.us
+  server: 84.235.244.108
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -64,7 +52,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - wqrhwp
   - 🇦🇪 阿联酋 (UAE) 02 - wqrhwp
   - 🇦🇪 阿联酋 (UAE) 03 - wqrhwp
-  - 🇦🇪 阿联酋 (UAE) 04 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -73,6 +60,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - wqrhwp
   - 🇦🇪 阿联酋 (UAE) 02 - wqrhwp
   - 🇦🇪 阿联酋 (UAE) 03 - wqrhwp
-  - 🇦🇪 阿联酋 (UAE) 04 - wqrhwp
 rules:
 - MATCH,PROXIES
