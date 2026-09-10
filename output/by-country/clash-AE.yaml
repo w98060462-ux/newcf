@@ -6,19 +6,30 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - wqrhwp
   type: vless
-  server: 104.24.30.89
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: rayan-007.nastaran.dpdns.org
+      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 02 - wqrhwp
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 05819bb1-2975-473c-a51f-0fbccf8d2cfa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  servername: tradingview.com
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 03 - wqrhwp
   type: vless
   server: 185.112.249.201
   port: 8443
@@ -32,22 +43,9 @@ proxies:
     path: /proxyip=bpb.yousef.isegaro.comfp=chrome
     headers:
       Host: web-socket.tgdaosheng.ggff.net
-- name: 🇦🇪 阿联酋 (UAE) 03 - wqrhwp
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 04 - wqrhwp
   type: vless
-  server: 84.235.244.108
+  server: uae.unixzone.us
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -58,47 +56,6 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 05 - wqrhwp
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 06 - wqrhwp
-  type: vless
-  server: 175.41.179.37
-  port: 51262
-  uuid: 903fed13-8e78-4fa2-a83e-b392b289741f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 07 - wqrhwp
-  type: vless
-  server: 128.241.25.215
-  port: 30036
-  uuid: 87e7d0b2-faf6-4644-97ae-ad9bffca2c97
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -108,9 +65,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - wqrhwp
   - 🇦🇪 阿联酋 (UAE) 03 - wqrhwp
   - 🇦🇪 阿联酋 (UAE) 04 - wqrhwp
-  - 🇦🇪 阿联酋 (UAE) 05 - wqrhwp
-  - 🇦🇪 阿联酋 (UAE) 06 - wqrhwp
-  - 🇦🇪 阿联酋 (UAE) 07 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -120,8 +74,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - wqrhwp
   - 🇦🇪 阿联酋 (UAE) 03 - wqrhwp
   - 🇦🇪 阿联酋 (UAE) 04 - wqrhwp
-  - 🇦🇪 阿联酋 (UAE) 05 - wqrhwp
-  - 🇦🇪 阿联酋 (UAE) 06 - wqrhwp
-  - 🇦🇪 阿联酋 (UAE) 07 - wqrhwp
 rules:
 - MATCH,PROXIES
