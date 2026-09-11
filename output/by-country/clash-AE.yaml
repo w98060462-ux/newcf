@@ -5,29 +5,10 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - wqrhwp
-  type: ss
-  server: 194.77.229.56
-  port: 12007
-  cipher: chacha20-ietf-poly1305
-  password: 1ed0af1c413861ff
-  udp: true
-- name: 🇦🇪 阿联酋 (UAE) 02 - wqrhwp
   type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 863ce48d-6b5e-4682-b5d7-0c9b43895841
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
-  client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 03 - wqrhwp
-  type: vless
-  server: 104.16.106.213
-  port: 8880
-  uuid: ae83f4a6-7fd3-4168-9f42-1260fc601155
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
   tls: false
   skip-cert-verify: true
@@ -35,20 +16,20 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: shy-mud-e936.15-bb9.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 04 - wqrhwp
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 02 - wqrhwp
   type: vless
-  server: 104.16.107.139
-  port: 8880
-  uuid: ae83f4a6-7fd3-4168-9f42-1260fc601155
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
+    path: /
     headers:
-      Host: shy-mud-e936.15-bb9.workers.dev
+      Host: uae.unixzone.us
 proxy-groups:
 - name: PROXIES
   type: select
@@ -56,8 +37,6 @@ proxy-groups:
   - AUTO
   - 🇦🇪 阿联酋 (UAE) 01 - wqrhwp
   - 🇦🇪 阿联酋 (UAE) 02 - wqrhwp
-  - 🇦🇪 阿联酋 (UAE) 03 - wqrhwp
-  - 🇦🇪 阿联酋 (UAE) 04 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -65,7 +44,5 @@ proxy-groups:
   proxies:
   - 🇦🇪 阿联酋 (UAE) 01 - wqrhwp
   - 🇦🇪 阿联酋 (UAE) 02 - wqrhwp
-  - 🇦🇪 阿联酋 (UAE) 03 - wqrhwp
-  - 🇦🇪 阿联酋 (UAE) 04 - wqrhwp
 rules:
 - MATCH,PROXIES

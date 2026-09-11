@@ -6,16 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇩🇰 DK 01 - wqrhwp",
-        "🇩🇰 DK 02 - wqrhwp"
+        "🇮🇪 IE 01 - wqrhwp",
+        "🇮🇪 IE 02 - wqrhwp",
+        "🇮🇪 IE 03 - wqrhwp"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇩🇰 DK 01 - wqrhwp",
-        "🇩🇰 DK 02 - wqrhwp"
+        "🇮🇪 IE 01 - wqrhwp",
+        "🇮🇪 IE 02 - wqrhwp",
+        "🇮🇪 IE 03 - wqrhwp"
       ],
       "url": "https://www.google.com/generate_204"
     },
