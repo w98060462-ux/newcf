@@ -6,20 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇭 TH 01 - wqrhwp",
-        "🇹🇭 TH 02 - wqrhwp",
-        "🇹🇭 TH 03 - wqrhwp",
-        "🇹🇭 TH 04 - wqrhwp"
+        "🇹🇭 TH 01 - wqrhwp"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 TH 01 - wqrhwp",
-        "🇹🇭 TH 02 - wqrhwp",
-        "🇹🇭 TH 03 - wqrhwp",
-        "🇹🇭 TH 04 - wqrhwp"
+        "🇹🇭 TH 01 - wqrhwp"
       ],
       "url": "https://www.google.com/generate_204"
     },

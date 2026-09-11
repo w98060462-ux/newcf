@@ -5,83 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - wqrhwp
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 02 - wqrhwp
-  type: vmess
-  server: 156.226.183.181
-  port: 54321
-  uuid: d3bcc1f1-6294-4f68-bcf3-c3bcb2001520
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇨 SC 03 - wqrhwp
-  type: vless
-  server: 45.130.125.201
-  port: 80
-  uuid: dc8a9493-c54a-459e-d060-81a700000001
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-core.netizo09.workers.dev
-- name: 🇸🇨 SC 04 - wqrhwp
-  type: vless
-  server: 172.67.145.21
-  port: 443
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: INDEX.Arcane509.Workers.DEV
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: index.arcane509.workers.dev
-- name: 🇸🇨 SC 05 - wqrhwp
-  type: vless
-  server: 162.159.140.78
-  port: 8880
-  uuid: 142d1453-9cfe-4045-8e54-f3fb33342185
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: lively-scene-744f.107-47a.workers.dev
-- name: 🇸🇨 SC 06 - wqrhwp
-  type: vless
-  server: 172.67.220.34
-  port: 443
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: INDEX.Arcane509.Workers.DEV
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: index.arcane509.workers.dev
-- name: 🇸🇨 SC 07 - wqrhwp
   type: vmess
   server: 156.226.183.181
   port: 54321
@@ -97,23 +20,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇸🇨 SC 01 - wqrhwp
-  - 🇸🇨 SC 02 - wqrhwp
-  - 🇸🇨 SC 03 - wqrhwp
-  - 🇸🇨 SC 04 - wqrhwp
-  - 🇸🇨 SC 05 - wqrhwp
-  - 🇸🇨 SC 06 - wqrhwp
-  - 🇸🇨 SC 07 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇸🇨 SC 01 - wqrhwp
-  - 🇸🇨 SC 02 - wqrhwp
-  - 🇸🇨 SC 03 - wqrhwp
-  - 🇸🇨 SC 04 - wqrhwp
-  - 🇸🇨 SC 05 - wqrhwp
-  - 🇸🇨 SC 06 - wqrhwp
-  - 🇸🇨 SC 07 - wqrhwp
 rules:
 - MATCH,PROXIES
