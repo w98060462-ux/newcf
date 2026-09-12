@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 土耳其 (Turkey) 01 - wqrhwp"
+        "🇨🇿 CZ 01 - wqrhwp",
+        "🇨🇿 CZ 02 - wqrhwp",
+        "🇨🇿 CZ 03 - wqrhwp"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 - wqrhwp"
+        "🇨🇿 CZ 01 - wqrhwp",
+        "🇨🇿 CZ 02 - wqrhwp",
+        "🇨🇿 CZ 03 - wqrhwp"
       ],
       "url": "https://www.google.com/generate_204"
     },
