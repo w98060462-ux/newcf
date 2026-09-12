@@ -13,52 +13,19 @@ proxies:
   udp: true
 - name: 🇨🇦 加拿大 (Canada) 02 - wqrhwp
   type: ss
-  server: 149.22.95.183
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  server: 15.235.75.71
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: FD3rCuOsxOay
   udp: true
 - name: 🇨🇦 加拿大 (Canada) 03 - wqrhwp
   type: ss
-  server: 51.222.12.127
-  port: 445
+  server: 51.222.136.236
+  port: 8882
   cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
+  password: kDWvXYZoTBcGkC4
   udp: true
 - name: 🇨🇦 加拿大 (Canada) 04 - wqrhwp
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 05 - wqrhwp
-  type: ss
-  server: 51.222.12.127
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 06 - wqrhwp
-  type: ss
-  server: 51.222.200.165
-  port: 5000
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 07 - wqrhwp
-  type: vless
-  server: 184.107.106.68
-  port: 443
-  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lizca2.footballfantasyforum.com
-- name: 🇨🇦 加拿大 (Canada) 08 - wqrhwp
   type: vmess
   server: 134.195.196.211
   port: 18000
@@ -68,13 +35,48 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 09 - wqrhwp
+- name: 🇨🇦 加拿大 (Canada) 05 - wqrhwp
   type: ss
-  server: 51.222.155.113
-  port: 5601
+  server: 51.79.49.116
+  port: 8882
   cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+  password: kDWvXYZoTBcGkC4
   udp: true
+- name: 🇨🇦 加拿大 (Canada) 06 - wqrhwp
+  type: ss
+  server: 149.22.95.183
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 07 - wqrhwp
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 08 - wqrhwp
+  type: vless
+  server: 184.107.106.68
+  port: 443
+  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lizca2.footballfantasyforum.com
+- name: 🇨🇦 加拿大 (Canada) 09 - wqrhwp
+  type: vless
+  server: lizca2.footballfantasyforum.com
+  port: 443
+  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lizca2.footballfantasyforum.com
 - name: 🇨🇦 加拿大 (Canada) 10 - wqrhwp
   type: vmess
   server: 134.195.196.211
@@ -97,26 +99,12 @@ proxies:
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 12 - wqrhwp
   type: ss
-  server: 51.222.155.32
-  port: 5003
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
+  server: 15.235.75.71
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: FD3rCuOsxOay
   udp: true
 - name: 🇨🇦 加拿大 (Canada) 13 - wqrhwp
-  type: ss
-  server: 142.4.216.225
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 3ssumf2
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 14 - wqrhwp
-  type: ss
-  server: 51.79.64.198
-  port: 8119
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 15 - wqrhwp
   type: vmess
   server: 134.195.196.211
   port: 18000
@@ -126,23 +114,47 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 16 - wqrhwp
-  type: ss
-  server: 51.222.155.113
-  port: 5601
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 17 - wqrhwp
-  type: ss
-  server: ca225.vpnbook.com
+- name: 🇨🇦 加拿大 (Canada) 14 - wqrhwp
+  type: vless
+  server: 184.107.106.68
   port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 3ssumf2
+  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
   udp: true
-- name: 🇨🇦 加拿大 (Canada) 18 - wqrhwp
+  tls: true
+  skip-cert-verify: true
+  servername: 184.107.106.68
+- name: 🇨🇦 加拿大 (Canada) 15 - wqrhwp
+  type: vless
+  server: 184.107.106.68
+  port: 443
+  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 184.107.106.68
+- name: 🇨🇦 加拿大 (Canada) 16 - wqrhwp
   type: vmess
   server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 17 - wqrhwp
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 18 - wqrhwp
+  type: vmess
+  server: 23.162.200.198
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -151,6 +163,110 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 19 - wqrhwp
+  type: ss
+  server: 51.222.12.127
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 20 - wqrhwp
+  type: ss
+  server: 51.222.141.125
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 21 - wqrhwp
+  type: vless
+  server: 184.107.106.68
+  port: 443
+  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 184.107.106.68
+- name: 🇨🇦 加拿大 (Canada) 22 - wqrhwp
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 23 - wqrhwp
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 24 - wqrhwp
+  type: ss
+  server: 142.4.216.225
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 3ssumf2
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 25 - wqrhwp
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 26 - wqrhwp
+  type: vmess
+  server: 158.51.121.63
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: seribus.org
+  network: ws
+  ws-opts:
+    path: linkvws
+    headers:
+      Host: seribus.org
+- name: 🇨🇦 加拿大 (Canada) 27 - wqrhwp
+  type: ss
+  server: 51.222.12.127
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 28 - wqrhwp
+  type: ss
+  server: ca225.vpnbook.com
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 3ssumf2
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 29 - wqrhwp
+  type: ss
+  server: 51.222.200.165
+  port: 5000
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 30 - wqrhwp
+  type: ss
+  server: 51.79.64.198
+  port: 8119
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 31 - wqrhwp
   type: vless
   server: 148.113.196.75
   port: 8443
@@ -164,26 +280,16 @@ proxies:
     path: /vless/
     headers:
       Host: 148.113.196.75
-- name: 🇨🇦 加拿大 (Canada) 20 - wqrhwp
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 21 - wqrhwp
+- name: 🇨🇦 加拿大 (Canada) 32 - wqrhwp
   type: ss
-  server: 51.222.141.125
-  port: 445
+  server: 51.222.155.113
+  port: 5601
   cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
+  password: Y6R9pAtvxxzmGC
   udp: true
-- name: 🇨🇦 加拿大 (Canada) 22 - wqrhwp
+- name: 🇨🇦 加拿大 (Canada) 33 - wqrhwp
   type: vmess
-  server: 134.195.196.211
+  server: 23.162.200.198
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -191,6 +297,15 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 34 - wqrhwp
+  type: vless
+  server: 184.107.106.68
+  port: 443
+  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lizca2.footballfantasyforum.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -218,6 +333,18 @@ proxy-groups:
   - 🇨🇦 加拿大 (Canada) 20 - wqrhwp
   - 🇨🇦 加拿大 (Canada) 21 - wqrhwp
   - 🇨🇦 加拿大 (Canada) 22 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 23 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 24 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 25 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 26 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 27 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 28 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 29 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 30 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 31 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 32 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 33 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 34 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -245,5 +372,17 @@ proxy-groups:
   - 🇨🇦 加拿大 (Canada) 20 - wqrhwp
   - 🇨🇦 加拿大 (Canada) 21 - wqrhwp
   - 🇨🇦 加拿大 (Canada) 22 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 23 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 24 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 25 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 26 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 27 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 28 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 29 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 30 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 31 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 32 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 33 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 34 - wqrhwp
 rules:
 - MATCH,PROXIES
