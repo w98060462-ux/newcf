@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇿 AZ 01 - wqrhwp"
+        "🇮🇳 印度 (India) 01 - wqrhwp",
+        "🇮🇳 印度 (India) 02 - wqrhwp"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇿 AZ 01 - wqrhwp"
+        "🇮🇳 印度 (India) 01 - wqrhwp",
+        "🇮🇳 印度 (India) 02 - wqrhwp"
       ],
       "url": "https://www.google.com/generate_204"
     },
