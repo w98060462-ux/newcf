@@ -27,18 +27,25 @@ proxies:
       Host: sb2.hat.onl
 - name: 🇷🇺 俄罗斯 (Russia) 03 - wqrhwp
   type: vless
-  server: 46.8.200.91
+  server: 78.159.247.246
   port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
+  uuid: 1852b02c-1828-40eb-81ff-4de3d097cb35
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cf3.rumedia-cdn.com
+  servername: sb2.hat.onl
   network: ws
   ws-opts:
-    path: /casc
+    path: /ws
     headers:
-      Host: cf3.rumedia-cdn.com
+      Host: sb2.hat.onl
+- name: 🇷🇺 俄罗斯 (Russia) 04 - wqrhwp
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: /QFycb02d87cByC9+5ZRSygI1avHiPXkgYG2yc+TnGA=
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -47,6 +54,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - wqrhwp
   - 🇷🇺 俄罗斯 (Russia) 02 - wqrhwp
   - 🇷🇺 俄罗斯 (Russia) 03 - wqrhwp
+  - 🇷🇺 俄罗斯 (Russia) 04 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -55,5 +63,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - wqrhwp
   - 🇷🇺 俄罗斯 (Russia) 02 - wqrhwp
   - 🇷🇺 俄罗斯 (Russia) 03 - wqrhwp
+  - 🇷🇺 俄罗斯 (Russia) 04 - wqrhwp
 rules:
 - MATCH,PROXIES
