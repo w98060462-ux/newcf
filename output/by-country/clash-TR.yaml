@@ -6,23 +6,30 @@ log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - wqrhwp
   type: vless
-  server: 151.241.226.201
-  port: 2053
-  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
+  server: turkyea.vanguardia.ir
+  port: 37446
+  uuid: 960e6852-9d2b-48bb-b1cf-5cb27ec27473
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
-  servername: www.apple.com
-  client-fingerprint: firefox
 - name: 🇹🇷 土耳其 (Turkey) 02 - wqrhwp
-  type: ss
-  server: 188.132.174.236
-  port: 1080
-  cipher: chacha20-ietf-poly1305
-  password: rSeYcig_XBy8q3k33NpK3A
+  type: vmess
+  server: 144.225.65.173
+  port: 29199
+  uuid: de2afab2-344b-413f-93a9-5e62c8e219d5
+  alterId: 0
+  cipher: auto
   udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇹🇷 土耳其 (Turkey) 03 - wqrhwp
+  type: vless
+  server: 144.225.65.173
+  port: 443
+  uuid: 35f8b8f4-b64d-4807-85f2-cc9a88d2ab8d
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -30,6 +37,7 @@ proxy-groups:
   - AUTO
   - 🇹🇷 土耳其 (Turkey) 01 - wqrhwp
   - 🇹🇷 土耳其 (Turkey) 02 - wqrhwp
+  - 🇹🇷 土耳其 (Turkey) 03 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -37,5 +45,6 @@ proxy-groups:
   proxies:
   - 🇹🇷 土耳其 (Turkey) 01 - wqrhwp
   - 🇹🇷 土耳其 (Turkey) 02 - wqrhwp
+  - 🇹🇷 土耳其 (Turkey) 03 - wqrhwp
 rules:
 - MATCH,PROXIES
