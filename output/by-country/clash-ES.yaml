@@ -18,18 +18,21 @@ proxies:
   client-fingerprint: chrome
 - name: 🇪🇸 西班牙 (Spain) 02 - wqrhwp
   type: ss
-  server: 140.174.184.5
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: qItG8SueYQcP
-  udp: true
-- name: 🇪🇸 西班牙 (Spain) 03 - wqrhwp
-  type: ss
   server: 108.181.121.226
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: WSyL4XTwNsdv
   udp: true
+- name: 🇪🇸 西班牙 (Spain) 03 - wqrhwp
+  type: vmess
+  server: 85.90.217.42
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇪🇸 西班牙 (Spain) 04 - wqrhwp
   type: vless
   server: 212.227.235.66
@@ -55,6 +58,13 @@ proxies:
   servername: www.apple.com
   client-fingerprint: random
 - name: 🇪🇸 西班牙 (Spain) 06 - wqrhwp
+  type: ss
+  server: 140.174.184.5
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: qItG8SueYQcP
+  udp: true
+- name: 🇪🇸 西班牙 (Spain) 07 - wqrhwp
   type: vless
   server: 212.227.235.66
   port: 2053
@@ -77,6 +87,7 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 04 - wqrhwp
   - 🇪🇸 西班牙 (Spain) 05 - wqrhwp
   - 🇪🇸 西班牙 (Spain) 06 - wqrhwp
+  - 🇪🇸 西班牙 (Spain) 07 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -88,5 +99,6 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 04 - wqrhwp
   - 🇪🇸 西班牙 (Spain) 05 - wqrhwp
   - 🇪🇸 西班牙 (Spain) 06 - wqrhwp
+  - 🇪🇸 西班牙 (Spain) 07 - wqrhwp
 rules:
 - MATCH,PROXIES
