@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇦 SA 01 - wqrhwp"
+        "🇸🇦 SA 01 - wqrhwp",
+        "🇸🇦 SA 02 - wqrhwp",
+        "🇸🇦 SA 03 - wqrhwp"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇦 SA 01 - wqrhwp"
+        "🇸🇦 SA 01 - wqrhwp",
+        "🇸🇦 SA 02 - wqrhwp",
+        "🇸🇦 SA 03 - wqrhwp"
       ],
       "url": "https://www.google.com/generate_204"
     },
