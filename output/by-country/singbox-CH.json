@@ -6,14 +6,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇱 CL 01 - wqrhwp"
+        "🇨🇭 CH 01 - wqrhwp",
+        "🇨🇭 CH 02 - wqrhwp",
+        "🇨🇭 CH 03 - wqrhwp",
+        "🇨🇭 CH 04 - wqrhwp",
+        "🇨🇭 CH 05 - wqrhwp"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇱 CL 01 - wqrhwp"
+        "🇨🇭 CH 01 - wqrhwp",
+        "🇨🇭 CH 02 - wqrhwp",
+        "🇨🇭 CH 03 - wqrhwp",
+        "🇨🇭 CH 04 - wqrhwp",
+        "🇨🇭 CH 05 - wqrhwp"
       ],
       "url": "https://www.google.com/generate_204"
     },
