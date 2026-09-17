@@ -5,13 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - wqrhwp
-  type: ss
-  server: 36.224.185.173
-  port: 50099
-  cipher: chacha20-ietf-poly1305
-  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
-  udp: true
-- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - wqrhwp
   type: vmess
   server: 7dba81fc3a0b.oylfmxz.cn
   port: 443
@@ -21,25 +14,23 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ''
+  servername: 7dba81fc3a0b.oylfmxz.cn
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
-      Host: ''
+      Host: 7dba81fc3a0b.oylfmxz.cn
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - wqrhwp
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - wqrhwp
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - wqrhwp
 rules:
 - MATCH,PROXIES
