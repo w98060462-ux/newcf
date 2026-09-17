@@ -5,6 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - wqrhwp
+  type: vless
+  server: 43.159.4.80
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - wqrhwp
   type: vmess
   server: 156.245.232.239
   port: 35043
@@ -25,11 +39,13 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇭🇰 中国香港 (Hong Kong) 01 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 02 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇭🇰 中国香港 (Hong Kong) 01 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 02 - wqrhwp
 rules:
 - MATCH,PROXIES
