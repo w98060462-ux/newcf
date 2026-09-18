@@ -5,6 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇭 TH 01 - wqrhwp
+  type: vless
+  server: 43.160.220.86
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /buy/uploads?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇹🇭 TH 02 - wqrhwp
   type: vmess
   server: 118.193.57.167
   port: 49667
@@ -25,11 +39,13 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇹🇭 TH 01 - wqrhwp
+  - 🇹🇭 TH 02 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇹🇭 TH 01 - wqrhwp
+  - 🇹🇭 TH 02 - wqrhwp
 rules:
 - MATCH,PROXIES
