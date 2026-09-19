@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇸🇦 SA 01 - wqrhwp
+- name: 🇨🇿 CZ 01 - wqrhwp
   type: vless
-  server: 91.209.253.119
+  server: 195.85.23.45
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -15,12 +15,26 @@ proxies:
   servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 02 - wqrhwp
+- name: 🇨🇿 CZ 02 - wqrhwp
   type: vless
-  server: 91.209.253.243
+  server: 188.130.207.30
+  port: 2053
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇨🇿 CZ 03 - wqrhwp
+  type: vless
+  server: 195.85.23.111
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -29,26 +43,12 @@ proxies:
   servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 03 - wqrhwp
+- name: 🇨🇿 CZ 04 - wqrhwp
   type: vless
-  server: 91.209.253.216
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 04 - wqrhwp
-  type: vless
-  server: 91.209.253.25
+  server: 195.85.23.252
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -65,18 +65,18 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇸🇦 SA 01 - wqrhwp
-  - 🇸🇦 SA 02 - wqrhwp
-  - 🇸🇦 SA 03 - wqrhwp
-  - 🇸🇦 SA 04 - wqrhwp
+  - 🇨🇿 CZ 01 - wqrhwp
+  - 🇨🇿 CZ 02 - wqrhwp
+  - 🇨🇿 CZ 03 - wqrhwp
+  - 🇨🇿 CZ 04 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇸🇦 SA 01 - wqrhwp
-  - 🇸🇦 SA 02 - wqrhwp
-  - 🇸🇦 SA 03 - wqrhwp
-  - 🇸🇦 SA 04 - wqrhwp
+  - 🇨🇿 CZ 01 - wqrhwp
+  - 🇨🇿 CZ 02 - wqrhwp
+  - 🇨🇿 CZ 03 - wqrhwp
+  - 🇨🇿 CZ 04 - wqrhwp
 rules:
 - MATCH,PROXIES
