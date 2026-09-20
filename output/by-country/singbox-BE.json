@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇩 MD 01 - wqrhwp"
+        "🇧🇪 BE 01 - wqrhwp",
+        "🇧🇪 BE 02 - wqrhwp",
+        "🇧🇪 BE 03 - wqrhwp"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇩 MD 01 - wqrhwp"
+        "🇧🇪 BE 01 - wqrhwp",
+        "🇧🇪 BE 02 - wqrhwp",
+        "🇧🇪 BE 03 - wqrhwp"
       ],
       "url": "https://www.google.com/generate_204"
     },
