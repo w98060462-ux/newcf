@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇰🇿 KZ 01 - wqrhwp
   type: vless
-  server: 31.43.179.20
+  server: 31.43.179.200
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇰🇿 KZ 02 - wqrhwp
   type: vless
-  server: 31.43.179.137
+  server: 31.43.179.109
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -34,7 +34,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇰🇿 KZ 03 - wqrhwp
   type: vless
-  server: 31.43.179.8
+  server: 31.43.179.200
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -48,48 +48,6 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇰🇿 KZ 04 - wqrhwp
   type: vless
-  server: 31.43.179.25
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 05 - wqrhwp
-  type: vless
-  server: 31.43.179.200
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 06 - wqrhwp
-  type: vless
-  server: 31.43.179.200
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 07 - wqrhwp
-  type: vless
   server: 31.43.179.36
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
@@ -102,21 +60,7 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 08 - wqrhwp
-  type: vless
-  server: 31.43.179.109
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 09 - wqrhwp
+- name: 🇰🇿 KZ 05 - wqrhwp
   type: vless
   server: 31.43.179.87
   port: 443
@@ -130,9 +74,65 @@ proxies:
     path: /
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 10 - wqrhwp
+- name: 🇰🇿 KZ 06 - wqrhwp
+  type: vless
+  server: 31.43.179.8
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇰🇿 KZ 07 - wqrhwp
+  type: vless
+  server: 31.43.179.106
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇰🇿 KZ 08 - wqrhwp
   type: vless
   server: 31.43.179.36
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇰🇿 KZ 09 - wqrhwp
+  type: vless
+  server: 31.43.179.25
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇰🇿 KZ 10 - wqrhwp
+  type: vless
+  server: 31.43.179.170
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -160,7 +160,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇰🇿 KZ 12 - wqrhwp
   type: vless
-  server: 31.43.179.170
+  server: 31.43.179.137
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -174,21 +174,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇰🇿 KZ 13 - wqrhwp
   type: vless
-  server: 31.43.179.25
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇰🇿 KZ 14 - wqrhwp
-  type: vless
-  server: 31.43.179.106
+  server: 31.43.179.20
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -218,7 +204,6 @@ proxy-groups:
   - 🇰🇿 KZ 11 - wqrhwp
   - 🇰🇿 KZ 12 - wqrhwp
   - 🇰🇿 KZ 13 - wqrhwp
-  - 🇰🇿 KZ 14 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -237,6 +222,5 @@ proxy-groups:
   - 🇰🇿 KZ 11 - wqrhwp
   - 🇰🇿 KZ 12 - wqrhwp
   - 🇰🇿 KZ 13 - wqrhwp
-  - 🇰🇿 KZ 14 - wqrhwp
 rules:
 - MATCH,PROXIES
