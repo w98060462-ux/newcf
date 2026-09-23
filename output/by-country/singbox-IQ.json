@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - wqrhwp"
+        "🇮🇶 IQ 01 - wqrhwp",
+        "🇮🇶 IQ 02 - wqrhwp"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - wqrhwp"
+        "🇮🇶 IQ 01 - wqrhwp",
+        "🇮🇶 IQ 02 - wqrhwp"
       ],
       "url": "https://www.google.com/generate_204"
     },
