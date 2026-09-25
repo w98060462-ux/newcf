@@ -4,31 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇻🇳 VN 01 - wqrhwp
+- name: 🇨🇦 加拿大 (Canada) 01 (家宽) - wqrhwp
   type: vless
-  server: 160.187.1.101
-  port: 443
-  uuid: c92e12ca-ea66-4785-8675-652b35134117
+  server: 188.114.97.6
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: thus-k.netnode.cc.cd
   network: ws
   ws-opts:
-    path: /t.me/daily_free_vpn
+    path: /?ed=2560
     headers:
-      Host: thus-k.netnode.cc.cd
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇻🇳 VN 01 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 01 (家宽) - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇻🇳 VN 01 - wqrhwp
+  - 🇨🇦 加拿大 (Canada) 01 (家宽) - wqrhwp
 rules:
 - MATCH,PROXIES
