@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - wqrhwp
   type: vless
-  server: 172.64.32.108
+  server: 104.18.46.234
   port: 2082
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -19,7 +19,34 @@ proxies:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇷🇺 俄罗斯 (Russia) 02 - wqrhwp
   type: vless
-  server: 108.162.198.178
+  server: 46.8.200.91
+  port: 443
+  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cf3.rumedia-cdn.com
+  network: ws
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf3.rumedia-cdn.com
+- name: 🇷🇺 俄罗斯 (Russia) 03 - wqrhwp
+  type: vless
+  server: 172.64.229.2
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 04 - wqrhwp
+  type: vless
+  server: 162.159.24.131
   port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -27,9 +54,29 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 05 - wqrhwp
+  type: vless
+  server: 172.64.32.103
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 06 - wqrhwp
+  type: ss
+  server: 62.109.12.234
+  port: 2055
+  cipher: chacha20-ietf-poly1305
+  password: WxYpOK1iPSJySbVNMMJDtw
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -37,6 +84,10 @@ proxy-groups:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - wqrhwp
   - 🇷🇺 俄罗斯 (Russia) 02 - wqrhwp
+  - 🇷🇺 俄罗斯 (Russia) 03 - wqrhwp
+  - 🇷🇺 俄罗斯 (Russia) 04 - wqrhwp
+  - 🇷🇺 俄罗斯 (Russia) 05 - wqrhwp
+  - 🇷🇺 俄罗斯 (Russia) 06 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -44,5 +95,9 @@ proxy-groups:
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - wqrhwp
   - 🇷🇺 俄罗斯 (Russia) 02 - wqrhwp
+  - 🇷🇺 俄罗斯 (Russia) 03 - wqrhwp
+  - 🇷🇺 俄罗斯 (Russia) 04 - wqrhwp
+  - 🇷🇺 俄罗斯 (Russia) 05 - wqrhwp
+  - 🇷🇺 俄罗斯 (Russia) 06 - wqrhwp
 rules:
 - MATCH,PROXIES

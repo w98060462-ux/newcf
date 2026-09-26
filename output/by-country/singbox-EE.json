@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇪🇪 EE 01 - wqrhwp",
+        "🇪🇪 EE 02 - wqrhwp",
+        "🇪🇪 EE 03 - wqrhwp",
+        "🇪🇪 EE 04 - wqrhwp",
+        "🇪🇪 EE 05 - wqrhwp",
+        "🇪🇪 EE 06 - wqrhwp",
+        "🇪🇪 EE 07 - wqrhwp",
+        "🇪🇪 EE 08 - wqrhwp",
+        "🇪🇪 EE 09 - wqrhwp",
+        "🇪🇪 EE 10 - wqrhwp"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇪🇪 EE 01 - wqrhwp",
+        "🇪🇪 EE 02 - wqrhwp",
+        "🇪🇪 EE 03 - wqrhwp",
+        "🇪🇪 EE 04 - wqrhwp",
+        "🇪🇪 EE 05 - wqrhwp",
+        "🇪🇪 EE 06 - wqrhwp",
+        "🇪🇪 EE 07 - wqrhwp",
+        "🇪🇪 EE 08 - wqrhwp",
+        "🇪🇪 EE 09 - wqrhwp",
+        "🇪🇪 EE 10 - wqrhwp"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
