@@ -6,18 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇿 UZ 01 - wqrhwp",
-        "🇺🇿 UZ 02 - wqrhwp",
-        "🇺🇿 UZ 03 - wqrhwp"
+        "🇪🇪 EE 01 - wqrhwp"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇿 UZ 01 - wqrhwp",
-        "🇺🇿 UZ 02 - wqrhwp",
-        "🇺🇿 UZ 03 - wqrhwp"
+        "🇪🇪 EE 01 - wqrhwp"
       ],
       "url": "https://www.google.com/generate_204"
     },
