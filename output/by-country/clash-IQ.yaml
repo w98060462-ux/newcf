@@ -1,0 +1,50 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇮🇶 IQ 01 - wqrhwp
+  type: vless
+  server: 63.141.128.22
+  port: 443
+  uuid: b8b01773-36b1-4b49-9bd0-6249f52345b4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiTkNUaFg0ZnJNUjhhcyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: MiSty-tooth-78cA.FoboGAH414-e7B.WoRKERs.DEv
+- name: 🇮🇶 IQ 02 - wqrhwp
+  type: vless
+  server: 104.21.91.50
+  port: 443
+  uuid: 3e43ffd1-3f7b-45b0-a955-c249010c7ebc
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: Open-39.AVL-a47261.WorKErS.DeV
+  network: ws
+  ws-opts:
+    path: /vl/9Vd7GxzImsNPSKUT9uIK0uYIARIV?ed=2560
+    headers:
+      Host: open-39.avl-a47261.workers.dev
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇮🇶 IQ 01 - wqrhwp
+  - 🇮🇶 IQ 02 - wqrhwp
+- name: AUTO
+  type: url-test
+  url: https://www.google.com/generate_204
+  interval: 300
+  proxies:
+  - 🇮🇶 IQ 01 - wqrhwp
+  - 🇮🇶 IQ 02 - wqrhwp
+rules:
+- MATCH,PROXIES
