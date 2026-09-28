@@ -6,14 +6,24 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇾 MY 01 - wqrhwp"
+        "🇲🇾 MY 01 - wqrhwp",
+        "🇲🇾 MY 02 - wqrhwp",
+        "🇲🇾 MY 03 - wqrhwp",
+        "🇲🇾 MY 04 - wqrhwp",
+        "🇲🇾 MY 05 - wqrhwp",
+        "🇲🇾 MY 06 - wqrhwp"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇾 MY 01 - wqrhwp"
+        "🇲🇾 MY 01 - wqrhwp",
+        "🇲🇾 MY 02 - wqrhwp",
+        "🇲🇾 MY 03 - wqrhwp",
+        "🇲🇾 MY 04 - wqrhwp",
+        "🇲🇾 MY 05 - wqrhwp",
+        "🇲🇾 MY 06 - wqrhwp"
       ],
       "url": "https://www.google.com/generate_204"
     },
