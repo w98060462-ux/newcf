@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇨🇭 CH 01 - wqrhwp",
+        "🇨🇭 CH 02 - wqrhwp",
+        "🇨🇭 CH 03 - wqrhwp",
+        "🇨🇭 CH 04 - wqrhwp"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇨🇭 CH 01 - wqrhwp",
+        "🇨🇭 CH 02 - wqrhwp",
+        "🇨🇭 CH 03 - wqrhwp",
+        "🇨🇭 CH 04 - wqrhwp"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
