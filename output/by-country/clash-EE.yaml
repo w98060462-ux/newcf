@@ -12,8 +12,21 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 94.183.170.135
+  servername: estproxy4.lockdwn.com
 - name: 🇪🇪 EE 02 - wqrhwp
+  type: vless
+  server: 94.183.170.135
+  port: 443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 94.183.170.135
+- name: 🇪🇪 EE 03 - wqrhwp
   type: vless
   server: 94.183.170.135
   port: 8443
@@ -22,7 +35,38 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 03 - wqrhwp
+- name: 🇪🇪 EE 04 - wqrhwp
+  type: vless
+  server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 05 - wqrhwp
+  type: vless
+  server: 94.183.170.135
+  port: 443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 94.183.170.135
+- name: 🇪🇪 EE 06 - wqrhwp
+  type: vless
+  server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 07 - wqrhwp
   type: vless
   server: 94.183.170.135
   port: 8443
@@ -39,6 +83,10 @@ proxy-groups:
   - 🇪🇪 EE 01 - wqrhwp
   - 🇪🇪 EE 02 - wqrhwp
   - 🇪🇪 EE 03 - wqrhwp
+  - 🇪🇪 EE 04 - wqrhwp
+  - 🇪🇪 EE 05 - wqrhwp
+  - 🇪🇪 EE 06 - wqrhwp
+  - 🇪🇪 EE 07 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -47,5 +95,9 @@ proxy-groups:
   - 🇪🇪 EE 01 - wqrhwp
   - 🇪🇪 EE 02 - wqrhwp
   - 🇪🇪 EE 03 - wqrhwp
+  - 🇪🇪 EE 04 - wqrhwp
+  - 🇪🇪 EE 05 - wqrhwp
+  - 🇪🇪 EE 06 - wqrhwp
+  - 🇪🇪 EE 07 - wqrhwp
 rules:
 - MATCH,PROXIES

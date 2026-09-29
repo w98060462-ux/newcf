@@ -6,14 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 MX 01 - wqrhwp"
+        "🇱🇹 LT 01 - wqrhwp"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 MX 01 - wqrhwp"
+        "🇱🇹 LT 01 - wqrhwp"
       ],
       "url": "https://www.google.com/generate_204"
     },
