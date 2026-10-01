@@ -6,14 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇦 加拿大 (Canada) 01 (家宽) - wqrhwp"
+        "🇨🇴 CO 01 - wqrhwp"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇦 加拿大 (Canada) 01 (家宽) - wqrhwp"
+        "🇨🇴 CO 01 - wqrhwp"
       ],
       "url": "https://www.google.com/generate_204"
     },
