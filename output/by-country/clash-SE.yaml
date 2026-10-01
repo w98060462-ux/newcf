@@ -15,20 +15,8 @@ proxies:
   reality-opts:
     public-key: SOvacyM6CABhBHYdOHvhXbkNLHJBHuAkoJj2Z13xKlE
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
 - name: 🇸🇪 SE 02 - wqrhwp
-  type: vless
-  server: 34.51.187.118
-  port: 443
-  uuid: e4be912f-68e8-4d51-80a4-1342b646f8e0
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: fV003yDr_sb_Wkgz6MxnIUJMgD15osWhzU-HZ5fLPFg
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇪 SE 03 - wqrhwp
   type: vless
   server: 103.71.22.234
   port: 8443
@@ -39,7 +27,7 @@ proxies:
   servername: shephe.dpdns.org
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: shephe.dpdns.org
 proxy-groups:
@@ -49,7 +37,6 @@ proxy-groups:
   - AUTO
   - 🇸🇪 SE 01 - wqrhwp
   - 🇸🇪 SE 02 - wqrhwp
-  - 🇸🇪 SE 03 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -57,6 +44,5 @@ proxy-groups:
   proxies:
   - 🇸🇪 SE 01 - wqrhwp
   - 🇸🇪 SE 02 - wqrhwp
-  - 🇸🇪 SE 03 - wqrhwp
 rules:
 - MATCH,PROXIES

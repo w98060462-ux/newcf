@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 MX 01 - wqrhwp"
+        "🇲🇽 MX 01 - wqrhwp",
+        "🇲🇽 MX 02 - wqrhwp",
+        "🇲🇽 MX 03 - wqrhwp"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 MX 01 - wqrhwp"
+        "🇲🇽 MX 01 - wqrhwp",
+        "🇲🇽 MX 02 - wqrhwp",
+        "🇲🇽 MX 03 - wqrhwp"
       ],
       "url": "https://www.google.com/generate_204"
     },
