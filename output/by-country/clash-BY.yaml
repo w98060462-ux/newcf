@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇧🇾 BY 01 - wqrhwp
   type: vless
-  server: 89.125.96.89
+  server: 89.125.96.80
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -34,6 +34,76 @@ proxies:
       Host: wss.zazazuza.ru
 - name: 🇧🇾 BY 03 - wqrhwp
   type: vless
+  server: 89.125.96.81
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 04 - wqrhwp
+  type: vless
+  server: 89.125.96.74
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 05 - wqrhwp
+  type: vless
+  server: 89.125.96.79
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 06 - wqrhwp
+  type: vless
+  server: 89.125.96.75
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 07 - wqrhwp
+  type: vless
+  server: 89.125.96.89
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
+- name: 🇧🇾 BY 08 - wqrhwp
+  type: vless
   server: 89.125.96.90
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
@@ -54,6 +124,11 @@ proxy-groups:
   - 🇧🇾 BY 01 - wqrhwp
   - 🇧🇾 BY 02 - wqrhwp
   - 🇧🇾 BY 03 - wqrhwp
+  - 🇧🇾 BY 04 - wqrhwp
+  - 🇧🇾 BY 05 - wqrhwp
+  - 🇧🇾 BY 06 - wqrhwp
+  - 🇧🇾 BY 07 - wqrhwp
+  - 🇧🇾 BY 08 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -62,5 +137,10 @@ proxy-groups:
   - 🇧🇾 BY 01 - wqrhwp
   - 🇧🇾 BY 02 - wqrhwp
   - 🇧🇾 BY 03 - wqrhwp
+  - 🇧🇾 BY 04 - wqrhwp
+  - 🇧🇾 BY 05 - wqrhwp
+  - 🇧🇾 BY 06 - wqrhwp
+  - 🇧🇾 BY 07 - wqrhwp
+  - 🇧🇾 BY 08 - wqrhwp
 rules:
 - MATCH,PROXIES
