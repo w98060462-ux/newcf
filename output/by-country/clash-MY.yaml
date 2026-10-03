@@ -50,26 +50,6 @@ proxies:
     path: /platform118
     headers:
       Host: platform118.halalkhor.info
-- name: 🇲🇾 MY 05 - wqrhwp
-  type: vless
-  server: platform117.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform117
-    headers:
-      Host: platform117.halalkhor.info
-- name: 🇲🇾 MY 06 - wqrhwp
-  type: ss
-  server: 130.94.69.15
-  port: 7001
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -79,8 +59,6 @@ proxy-groups:
   - 🇲🇾 MY 02 - wqrhwp
   - 🇲🇾 MY 03 - wqrhwp
   - 🇲🇾 MY 04 - wqrhwp
-  - 🇲🇾 MY 05 - wqrhwp
-  - 🇲🇾 MY 06 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -90,7 +68,5 @@ proxy-groups:
   - 🇲🇾 MY 02 - wqrhwp
   - 🇲🇾 MY 03 - wqrhwp
   - 🇲🇾 MY 04 - wqrhwp
-  - 🇲🇾 MY 05 - wqrhwp
-  - 🇲🇾 MY 06 - wqrhwp
 rules:
 - MATCH,PROXIES
