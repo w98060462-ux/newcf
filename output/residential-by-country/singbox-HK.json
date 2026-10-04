@@ -6,20 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇪 IE 01 - wqrhwp",
-        "🇮🇪 IE 02 - wqrhwp",
-        "🇮🇪 IE 03 - wqrhwp",
-        "🇮🇪 IE 04 - wqrhwp"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - wqrhwp"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 IE 01 - wqrhwp",
-        "🇮🇪 IE 02 - wqrhwp",
-        "🇮🇪 IE 03 - wqrhwp",
-        "🇮🇪 IE 04 - wqrhwp"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - wqrhwp"
       ],
       "url": "https://www.google.com/generate_204"
     },
