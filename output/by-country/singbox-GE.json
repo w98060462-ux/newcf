@@ -6,16 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇬🇪 GE 01 - wqrhwp",
-        "🇬🇪 GE 02 - wqrhwp"
+        "🇬🇪 GE 01 - wqrhwp"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇬🇪 GE 01 - wqrhwp",
-        "🇬🇪 GE 02 - wqrhwp"
+        "🇬🇪 GE 01 - wqrhwp"
       ],
       "url": "https://www.google.com/generate_204"
     },
