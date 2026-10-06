@@ -6,14 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇴 RO 01 - wqrhwp"
+        "🇸🇪 SE 01 - wqrhwp"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇴 RO 01 - wqrhwp"
+        "🇸🇪 SE 01 - wqrhwp"
       ],
       "url": "https://www.google.com/generate_204"
     },
