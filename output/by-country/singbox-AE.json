@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇦🇪 阿联酋 (UAE) 01 - wqrhwp",
+        "🇦🇪 阿联酋 (UAE) 02 - wqrhwp",
+        "🇦🇪 阿联酋 (UAE) 03 - wqrhwp",
+        "🇦🇪 阿联酋 (UAE) 04 - wqrhwp",
+        "🇦🇪 阿联酋 (UAE) 05 - wqrhwp",
+        "🇦🇪 阿联酋 (UAE) 06 - wqrhwp"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇦🇪 阿联酋 (UAE) 01 - wqrhwp",
+        "🇦🇪 阿联酋 (UAE) 02 - wqrhwp",
+        "🇦🇪 阿联酋 (UAE) 03 - wqrhwp",
+        "🇦🇪 阿联酋 (UAE) 04 - wqrhwp",
+        "🇦🇪 阿联酋 (UAE) 05 - wqrhwp",
+        "🇦🇪 阿联酋 (UAE) 06 - wqrhwp"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
