@@ -5,6 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - wqrhwp
+  type: vmess
+  server: 93ucrn4i0pffuabk.v.3dns.vip
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 93ucrn4i0pffuabk.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: 93ucrn4i0pffuabk.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - wqrhwp
   type: vless
   server: 34.92.19.135
   port: 443
@@ -15,23 +31,38 @@ proxies:
   reality-opts:
     public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
   servername: www.cloudflare.com
-  client-fingerprint: ios
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - wqrhwp
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - wqrhwp
   type: vmess
-  server: 156.245.232.239
-  port: 35043
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  server: i2psm3knof5qjjix.v.3dns.vip
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: i2psm3knof5qjjix.v.3dns.vip
   network: ws
   ws-opts:
-    path: /
+    path: /ws-vmess
     headers:
-      Host: www.pubgmobile.com
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - wqrhwp
+      Host: i2psm3knof5qjjix.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - wqrhwp
+  type: vless
+  server: 143.20.156.116
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - wqrhwp
   type: vless
   server: 43.129.80.179
   port: 8443
@@ -45,7 +76,23 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - wqrhwp
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - wqrhwp
+  type: vmess
+  server: 8.218.195.61
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: EX1oGt73NzPQKAc2.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: EX1oGt73NzPQKAc2.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - wqrhwp
   type: vmess
   server: 47.244.120.197
   port: 23026
@@ -60,7 +107,7 @@ proxies:
     path: /arki
     headers:
       Host: 47.244.120.197
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - wqrhwp
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - wqrhwp
   type: vmess
   server: 8.217.13.103
   port: 443
@@ -76,21 +123,22 @@ proxies:
     path: /ws-vmess
     headers:
       Host: qtkdr8jxe3wefxjm.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - wqrhwp
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - wqrhwp
   type: vmess
-  server: 156.245.232.239
-  port: 35043
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  server: 47.83.207.148
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: VAH4URdZL3jDX5r2.v.3dns.vip
   network: ws
   ws-opts:
-    path: /
+    path: /ws-vmess
     headers:
-      Host: ''
+      Host: VAH4URdZL3jDX5r2.v.3dns.vip
 proxy-groups:
 - name: PROXIES
   type: select
@@ -102,6 +150,9 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 04 - wqrhwp
   - 🇭🇰 中国香港 (Hong Kong) 05 - wqrhwp
   - 🇭🇰 中国香港 (Hong Kong) 06 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 07 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 08 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 09 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -113,5 +164,8 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 04 - wqrhwp
   - 🇭🇰 中国香港 (Hong Kong) 05 - wqrhwp
   - 🇭🇰 中国香港 (Hong Kong) 06 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 07 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 08 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 09 - wqrhwp
 rules:
 - MATCH,PROXIES
