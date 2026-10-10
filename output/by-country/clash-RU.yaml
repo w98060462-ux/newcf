@@ -11,17 +11,62 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: eicdhshSrFLCx/sZ1PSpuKyoVWGZpU95tFS4iGC1c04=
   udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 02 - wqrhwp
+  type: vless
+  server: 79.174.92.222
+  port: 443
+  uuid: 03ca8c3f-e777-45b5-a1b1-592094ca99ee
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: _PYBo3dyZRpGC44vADqcmlBCSeAVh1X8l3mulghVsTI
+  servername: m.vk.com
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 03 - wqrhwp
+  type: vless
+  server: 185.86.145.183
+  port: 443
+  uuid: 7ec9f26a-edec-4bf1-addd-700626df27c1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cosmo-pulse.ru
+  network: ws
+  ws-opts:
+    path: /nl7ws
+    headers:
+      Host: cosmo-pulse.ru
+- name: 🇷🇺 俄罗斯 (Russia) 04 - wqrhwp
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    headers:
+      Host: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - wqrhwp
+  - 🇷🇺 俄罗斯 (Russia) 02 - wqrhwp
+  - 🇷🇺 俄罗斯 (Russia) 03 - wqrhwp
+  - 🇷🇺 俄罗斯 (Russia) 04 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - wqrhwp
+  - 🇷🇺 俄罗斯 (Russia) 02 - wqrhwp
+  - 🇷🇺 俄罗斯 (Russia) 03 - wqrhwp
+  - 🇷🇺 俄罗斯 (Russia) 04 - wqrhwp
 rules:
 - MATCH,PROXIES
