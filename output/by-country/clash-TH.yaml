@@ -5,13 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇭 TH 01 - wqrhwp
-  type: ss
-  server: 103.107.52.106
-  port: 52351
-  cipher: aes-256-gcm
-  password: sxajCTwrlK0zl+zmHpX0p0jXIfatnzlLzWlSQ950L1c=
-  udp: true
-- name: 🇹🇭 TH 02 - wqrhwp
   type: vmess
   server: 119.46.51.45
   port: 37515
@@ -21,7 +14,7 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇹🇭 TH 03 - wqrhwp
+- name: 🇹🇭 TH 02 - wqrhwp
   type: vmess
   server: 119.46.51.45
   port: 37515
@@ -38,7 +31,6 @@ proxy-groups:
   - AUTO
   - 🇹🇭 TH 01 - wqrhwp
   - 🇹🇭 TH 02 - wqrhwp
-  - 🇹🇭 TH 03 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -46,6 +38,5 @@ proxy-groups:
   proxies:
   - 🇹🇭 TH 01 - wqrhwp
   - 🇹🇭 TH 02 - wqrhwp
-  - 🇹🇭 TH 03 - wqrhwp
 rules:
 - MATCH,PROXIES
