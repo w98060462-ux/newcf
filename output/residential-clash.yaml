@@ -6,9 +6,9 @@ log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - wqrhwp
   type: vless
-  server: 60.248.219.78
+  server: 59.125.69.24
   port: 443
-  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  uuid: 06e177f7-240d-4687-bd85-235505801a5e
   udp: true
   tls: true
   skip-cert-verify: true
@@ -17,21 +17,20 @@ proxies:
   ws-opts:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
-      Host: 60.248.219.78
-- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - wqrhwp
+      Host: 59.125.69.24
+- name: 🇺🇸 美国 (United States) 02 (家宽) - wqrhwp
   type: vless
-  server: 103.180.20.108
-  port: 8443
-  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  server: 172.67.209.127
+  port: 8880
+  uuid: 1b3ad465-d37e-48a2-bb53-d7fddfc97b11
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: ty986gfazs.cainiaohub.xyz
   network: ws
   ws-opts:
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+    path: /
     headers:
-      Host: 103.180.20.108
+      Host: calm-silence-d4a1.217.workers.dev
 - name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - wqrhwp
   type: vless
   server: 103.148.73.173
@@ -46,21 +45,37 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: 103.148.73.173
+- name: 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - wqrhwp
+  type: vless
+  server: 103.180.20.108
+  port: 8443
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ty986gfazs.cainiaohub.xyz
+  network: ws
+  ws-opts:
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+    headers:
+      Host: 103.180.20.108
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - wqrhwp
-  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - wqrhwp
+  - 🇺🇸 美国 (United States) 02 (家宽) - wqrhwp
   - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - wqrhwp
-  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - wqrhwp
+  - 🇺🇸 美国 (United States) 02 (家宽) - wqrhwp
   - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - wqrhwp
 rules:
 - MATCH,PROXIES
