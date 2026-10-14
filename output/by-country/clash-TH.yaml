@@ -44,6 +44,16 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇹🇭 TH 05 - wqrhwp
+  type: vmess
+  server: 119.46.51.45
+  port: 37515
+  uuid: 9b76bc31-17a5-4454-934a-8d5fb602cd70
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -53,6 +63,7 @@ proxy-groups:
   - 🇹🇭 TH 02 - wqrhwp
   - 🇹🇭 TH 03 - wqrhwp
   - 🇹🇭 TH 04 - wqrhwp
+  - 🇹🇭 TH 05 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -62,5 +73,6 @@ proxy-groups:
   - 🇹🇭 TH 02 - wqrhwp
   - 🇹🇭 TH 03 - wqrhwp
   - 🇹🇭 TH 04 - wqrhwp
+  - 🇹🇭 TH 05 - wqrhwp
 rules:
 - MATCH,PROXIES
