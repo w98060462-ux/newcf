@@ -20,19 +20,6 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇨 SC 03 - wqrhwp
-  type: vless
-  server: 45.137.43.168
-  port: 14430
-  uuid: b4cc503a-c352-4775-85ad-fc982086884a
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 45.137.43.168
 proxy-groups:
 - name: PROXIES
   type: select
@@ -40,7 +27,6 @@ proxy-groups:
   - AUTO
   - 🇸🇨 SC 01 - wqrhwp
   - 🇸🇨 SC 02 - wqrhwp
-  - 🇸🇨 SC 03 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -48,6 +34,5 @@ proxy-groups:
   proxies:
   - 🇸🇨 SC 01 - wqrhwp
   - 🇸🇨 SC 02 - wqrhwp
-  - 🇸🇨 SC 03 - wqrhwp
 rules:
 - MATCH,PROXIES
