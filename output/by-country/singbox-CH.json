@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇨🇭 CH 01 - wqrhwp",
+        "🇨🇭 CH 02 - wqrhwp",
+        "🇨🇭 CH 03 - wqrhwp",
+        "🇨🇭 CH 04 - wqrhwp",
+        "🇨🇭 CH 05 - wqrhwp",
+        "🇨🇭 CH 06 - wqrhwp",
+        "🇨🇭 CH 07 - wqrhwp",
+        "🇨🇭 CH 08 - wqrhwp",
+        "🇨🇭 CH 09 - wqrhwp"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇨🇭 CH 01 - wqrhwp",
+        "🇨🇭 CH 02 - wqrhwp",
+        "🇨🇭 CH 03 - wqrhwp",
+        "🇨🇭 CH 04 - wqrhwp",
+        "🇨🇭 CH 05 - wqrhwp",
+        "🇨🇭 CH 06 - wqrhwp",
+        "🇨🇭 CH 07 - wqrhwp",
+        "🇨🇭 CH 08 - wqrhwp",
+        "🇨🇭 CH 09 - wqrhwp"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
