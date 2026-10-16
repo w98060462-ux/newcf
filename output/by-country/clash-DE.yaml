@@ -6,121 +6,19 @@ log-level: info
 proxies:
 - name: 🇩🇪 德国 (Germany) 01 - wqrhwp
   type: vless
-  server: tuyiuoyuthgfdbf.localip.ir
-  port: 2087
-  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  server: cdn.topingr.ir
+  port: 443
+  uuid: 497f5381-3533-4c6a-939c-66eb3a7de108
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tuyiuoyuthgfdbf.localip.ir
+  servername: cdn.topingr.ir
   network: ws
   ws-opts:
-    path: /hokm
+    path: /gropcdn
     headers:
-      Host: tuyiuoyuthgfdbf.localip.ir
+      Host: cdn.topingr.ir
 - name: 🇩🇪 德国 (Germany) 02 - wqrhwp
-  type: vless
-  server: 162.55.242.208
-  port: 2053
-  uuid: 659ffdfa-47d2-47d7-af40-5afe0907eead
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 03 - wqrhwp
-  type: vless
-  server: wwww.qarvian.ir
-  port: 443
-  uuid: 37857ebf-94bb-49a0-8ab9-548e64e57311
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: google.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: azdddaiji5.global.ssl.fastly.net.
-- name: 🇩🇪 德国 (Germany) 04 - wqrhwp
-  type: vless
-  server: 57.129.41.216
-  port: 80
-  uuid: 18535741-e8b3-4b43-9348-785b55936751
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: 57.129.41.216
-- name: 🇩🇪 德国 (Germany) 05 - wqrhwp
-  type: vless
-  server: 94.103.168.54
-  port: 2087
-  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fert3retujnbc.localip.ir
-  network: ws
-  ws-opts:
-    path: /hokm
-    headers:
-      Host: fert3retujnbc.localip.ir
-- name: 🇩🇪 德国 (Germany) 06 - wqrhwp
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: 37857ebf-94bb-49a0-8ab9-548e64e57311
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: google.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: pan2e.global.ssl.fastly.net.
-- name: 🇩🇪 德国 (Germany) 07 - wqrhwp
-  type: ss
-  server: 185.226.172.8
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: 🇩🇪 德国 (Germany) 08 - wqrhwp
-  type: ss
-  server: 185.226.172.8
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: 🇩🇪 德国 (Germany) 09 - wqrhwp
-  type: ss
-  server: 209.46.102.22
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: 1hhrqrokj3ag
-  udp: true
-- name: 🇩🇪 德国 (Germany) 10 - wqrhwp
-  type: vless
-  server: sino.bestsellers1.site
-  port: 2083
-  uuid: 7858128a-6b5e-4f86-9bff-52c1f1e6439d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sino.bestsellers1.site
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sino.bestsellers1.site
-- name: 🇩🇪 德国 (Germany) 11 - wqrhwp
   type: vless
   server: 91.107.247.173
   port: 2083
@@ -134,21 +32,35 @@ proxies:
     path: /
     headers:
       Host: 91.107.247.173
-- name: 🇩🇪 德国 (Germany) 12 - wqrhwp
+- name: 🇩🇪 德国 (Germany) 03 - wqrhwp
   type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: 37857ebf-94bb-49a0-8ab9-548e64e57311
+  server: 172.66.44.124
+  port: 8443
+  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: google.com
+  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: pan2e.global.ssl.fastly.net.
-- name: 🇩🇪 德国 (Germany) 13 - wqrhwp
+      Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+- name: 🇩🇪 德国 (Germany) 04 - wqrhwp
+  type: vless
+  server: 178.104.248.34
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tuyiuoyuthgfdbf.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: tuyiuoyuthgfdbf.localip.ir
+- name: 🇩🇪 德国 (Germany) 05 - wqrhwp
   type: vless
   server: sino.bestsellers1.site
   port: 2083
@@ -162,45 +74,162 @@ proxies:
     path: /
     headers:
       Host: sino.bestsellers1.site
-- name: 🇩🇪 德国 (Germany) 14 - wqrhwp
+- name: 🇩🇪 德国 (Germany) 06 - wqrhwp
+  type: ss
+  server: 57.129.113.16
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: NcAXc0UZI6yQJE1p8QmOv8
+  udp: true
+- name: 🇩🇪 德国 (Germany) 07 - wqrhwp
   type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: 37857ebf-94bb-49a0-8ab9-548e64e57311
+  server: 46.225.46.136
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: google.com
+  servername: hoert1rert.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: hoert1rert.localip.ir
+- name: 🇩🇪 德国 (Germany) 08 - wqrhwp
+  type: vless
+  server: 31.77.126.2
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇩🇪 德国 (Germany) 09 - wqrhwp
+  type: vless
+  server: 31.77.126.2
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇩🇪 德国 (Germany) 10 - wqrhwp
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: 497f5381-3533-4c6a-939c-66eb3a7de108
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn.topingr.ir
+  network: ws
+  ws-opts:
+    path: /gropcdn
+    headers:
+      Host: cdn.topingr.ir
+- name: 🇩🇪 德国 (Germany) 11 - wqrhwp
+  type: vless
+  server: hoert1rert.localip.ir
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: hoert1rert.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: hoert1rert.localip.ir
+- name: 🇩🇪 德国 (Germany) 12 - wqrhwp
+  type: vless
+  server: 31.57.108.207
+  port: 443
+  uuid: 497f5381-3533-4c6a-939c-66eb3a7de108
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn.topingr.ir
+  network: ws
+  ws-opts:
+    path: /gropcdn
+    headers:
+      Host: cdn.topingr.ir
+- name: 🇩🇪 德国 (Germany) 13 - wqrhwp
+  type: vless
+  server: 46.101.253.244
+  port: 2083
+  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edge.yzkvm.top
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: pannn1.global.ssl.fastly.net.
+      Host: edge.yzkvm.top
+- name: 🇩🇪 德国 (Germany) 14 - wqrhwp
+  type: vless
+  server: hoert1rert.localip.ir
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: hoert1rert.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: hoert1rert.localip.ir
 - name: 🇩🇪 德国 (Germany) 15 - wqrhwp
   type: vless
-  server: 77.221.157.213
-  port: 10443
-  uuid: 1d006ad5-1de1-4520-a5f4-875dae1b0a5d
+  server: 57.129.41.216
+  port: 80
+  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: OV-Germany1.09vpn.com
 - name: 🇩🇪 德国 (Germany) 16 - wqrhwp
-  type: ss
-  server: 213.202.208.199
-  port: 5000
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+  type: vless
+  server: sino.bestsellers1.site
+  port: 2083
+  uuid: 7858128a-6b5e-4f86-9bff-52c1f1e6439d
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sino.bestsellers1.site
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sino.bestsellers1.site
 - name: 🇩🇪 德国 (Germany) 17 - wqrhwp
   type: ss
-  server: 213.202.208.199
-  port: 5000
+  server: 185.226.172.8
+  port: 8008
   cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+  password: XKFKl2rULjIp74
   udp: true
 - name: 🇩🇪 德国 (Germany) 18 - wqrhwp
   type: vless
-  server: 178.104.248.34
+  server: tuyiuoyuthgfdbf.localip.ir
   port: 2087
   uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
   udp: true
@@ -214,96 +243,19 @@ proxies:
       Host: tuyiuoyuthgfdbf.localip.ir
 - name: 🇩🇪 德国 (Germany) 19 - wqrhwp
   type: vless
-  server: wwww.qarvian.ir
-  port: 443
-  uuid: 37857ebf-94bb-49a0-8ab9-548e64e57311
+  server: 167.172.165.106
+  port: 2083
+  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: google.com
+  servername: edge.yzkvm.top
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: azdddaiji5.global.ssl.fastly.net.
+      Host: edge.yzkvm.top
 - name: 🇩🇪 德国 (Germany) 20 - wqrhwp
-  type: vless
-  server: hoert1rert.localip.ir
-  port: 2087
-  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hoert1rert.localip.ir
-  network: ws
-  ws-opts:
-    path: /hokm
-    headers:
-      Host: hoert1rert.localip.ir
-- name: 🇩🇪 德国 (Germany) 21 - wqrhwp
-  type: ss
-  server: 57.129.113.16
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: NcAXc0UZI6yQJE1p8QmOv8
-  udp: true
-- name: 🇩🇪 德国 (Germany) 22 - wqrhwp
-  type: vless
-  server: sub.merky.top
-  port: 443
-  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sub.merky.top
-  network: ws
-  ws-opts:
-    path: /merky-connect/de6/
-    headers:
-      Host: sub.merky.top
-- name: 🇩🇪 德国 (Germany) 23 - wqrhwp
-  type: vless
-  server: hoert1rert.localip.ir
-  port: 2087
-  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hoert1rert.localip.ir
-  network: ws
-  ws-opts:
-    path: /hokm
-    headers:
-      Host: hoert1rert.localip.ir
-- name: 🇩🇪 德国 (Germany) 24 - wqrhwp
-  type: vless
-  server: hoert1rert.localip.ir
-  port: 2087
-  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hoert1rert.localip.ir
-  network: ws
-  ws-opts:
-    path: /hokm
-    headers:
-      Host: hoert1rert.localip.ir
-- name: 🇩🇪 德国 (Germany) 25 - wqrhwp
-  type: vless
-  server: wwww.qarvian.ir
-  port: 443
-  uuid: 37857ebf-94bb-49a0-8ab9-548e64e57311
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: google.com
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--V2ray_confiig?ed=2560
-    headers:
-      Host: azdddaiji5.global.ssl.fastly.net.
-- name: 🇩🇪 德国 (Germany) 26 - wqrhwp
   type: vless
   server: 178.104.248.34
   port: 2087
@@ -317,80 +269,159 @@ proxies:
     path: /hokm
     headers:
       Host: tuyiuoyuthgfdbf.localip.ir
-- name: 🇩🇪 德国 (Germany) 27 - wqrhwp
+- name: 🇩🇪 德国 (Germany) 21 - wqrhwp
+  type: ss
+  server: 213.202.208.199
+  port: 7001
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+  udp: true
+- name: 🇩🇪 德国 (Germany) 22 - wqrhwp
   type: vless
-  server: sino.bestsellers1.site
-  port: 2083
-  uuid: 7858128a-6b5e-4f86-9bff-52c1f1e6439d
+  server: hoert1rert.localip.ir
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: sino.bestsellers1.site
+  servername: hoert1rert.localip.ir
   network: ws
   ws-opts:
-    path: /
+    path: /hokm
     headers:
-      Host: sino.bestsellers1.site
-- name: 🇩🇪 德国 (Germany) 28 - wqrhwp
+      Host: hoert1rert.localip.ir
+- name: 🇩🇪 德国 (Germany) 23 - wqrhwp
   type: vless
-  server: 77.221.157.213
-  port: 14430
-  uuid: 1d006ad5-1de1-4520-a5f4-875dae1b0a5d
+  server: 57.129.41.216
+  port: 80
+  uuid: 7d90f043-ed7f-40c9-ac2f-352987904958
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vless
+    path: /vless/
     headers:
-      Host: 77.221.157.213
-- name: 🇩🇪 德国 (Germany) 29 - wqrhwp
-  type: ss
-  server: 209.46.102.22
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: 1hhrqrokj3ag
+      Host: 57.129.41.216
+- name: 🇩🇪 德国 (Germany) 24 - wqrhwp
+  type: vless
+  server: cdn.topingr.ir
+  port: 443
+  uuid: 497f5381-3533-4c6a-939c-66eb3a7de108
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn.topingr.ir
+  network: ws
+  ws-opts:
+    path: /gropcdn
+    headers:
+      Host: cdn.topingr.ir
+- name: 🇩🇪 德国 (Germany) 25 - wqrhwp
+  type: vless
+  server: 178.104.248.34
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tuyiuoyuthgfdbf.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: tuyiuoyuthgfdbf.localip.ir
+- name: 🇩🇪 德国 (Germany) 26 - wqrhwp
+  type: vless
+  server: cdn.topingr.ir
+  port: 443
+  uuid: 497f5381-3533-4c6a-939c-66eb3a7de108
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn.topingr.ir
+  network: ws
+  ws-opts:
+    path: /gropcdn
+    headers:
+      Host: cdn.topingr.ir
+- name: 🇩🇪 德国 (Germany) 27 - wqrhwp
+  type: vless
+  server: fert3retujnbc.localip.ir
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fert3retujnbc.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: fert3retujnbc.localip.ir
+- name: 🇩🇪 德国 (Germany) 28 - wqrhwp
+  type: vless
+  server: 94.103.168.54
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fert3retujnbc.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: fert3retujnbc.localip.ir
+- name: 🇩🇪 德国 (Germany) 29 - wqrhwp
+  type: vless
+  server: 94.103.168.54
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fert3retujnbc.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: fert3retujnbc.localip.ir
 - name: 🇩🇪 德国 (Germany) 30 - wqrhwp
   type: vless
-  server: 84.32.100.149
-  port: 443
-  uuid: 244d9eab-3311-40c7-b47f-4968dc3088a6
+  server: 94.103.168.54
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-  servername: tcpde7.figurapn.ru
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 31 - wqrhwp
-  type: vless
-  server: wwww.qarvian.ir
-  port: 443
-  uuid: 37857ebf-94bb-49a0-8ab9-548e64e57311
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: google.com
+  servername: fert3retujnbc.localip.ir
   network: ws
   ws-opts:
-    path: /
+    path: /hokm
     headers:
-      Host: azdddaiji5.global.ssl.fastly.net.
+      Host: fert3retujnbc.localip.ir
+- name: 🇩🇪 德国 (Germany) 31 - wqrhwp
+  type: ss
+  server: 8.209.74.72
+  port: 20001
+  cipher: chacha20-ietf-poly1305
+  password: PWpjPo3tqhPN4yRZ
+  udp: true
 - name: 🇩🇪 德国 (Germany) 32 - wqrhwp
   type: vless
-  server: 199.232.78.128
-  port: 443
-  uuid: 37857ebf-94bb-49a0-8ab9-548e64e57311
+  server: 46.225.46.136
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: google.com
+  servername: hoert1rert.localip.ir
   network: ws
   ws-opts:
-    path: /
+    path: /hokm
     headers:
-      Host: azdddaiji5.global.ssl.fastly.net.
+      Host: hoert1rert.localip.ir
 - name: 🇩🇪 德国 (Germany) 33 - wqrhwp
   type: vless
   server: 178.104.248.34
@@ -407,17 +438,18 @@ proxies:
       Host: tuyiuoyuthgfdbf.localip.ir
 - name: 🇩🇪 德国 (Germany) 34 - wqrhwp
   type: vless
-  server: 77.221.157.213
-  port: 14430
-  uuid: 1d006ad5-1de1-4520-a5f4-875dae1b0a5d
+  server: tuyiuoyuthgfdbf.localip.ir
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: tuyiuoyuthgfdbf.localip.ir
   network: ws
   ws-opts:
-    path: /vless
+    path: /hokm
     headers:
-      Host: 77.221.157.213
+      Host: tuyiuoyuthgfdbf.localip.ir
 - name: 🇩🇪 德国 (Germany) 35 - wqrhwp
   type: vless
   server: sino.bestsellers1.site
@@ -434,97 +466,7 @@ proxies:
       Host: sino.bestsellers1.site
 - name: 🇩🇪 德国 (Germany) 36 - wqrhwp
   type: vless
-  server: 46.225.46.136
-  port: 2087
-  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hoert1rert.localip.ir
-  network: ws
-  ws-opts:
-    path: /hokm
-    headers:
-      Host: hoert1rert.localip.ir
-- name: 🇩🇪 德国 (Germany) 37 - wqrhwp
-  type: ss
-  server: 8.209.74.72
-  port: 20001
-  cipher: chacha20-ietf-poly1305
-  password: PWpjPo3tqhPN4yRZ
-  udp: true
-- name: 🇩🇪 德国 (Germany) 38 - wqrhwp
-  type: vless
-  server: 57.129.41.216
-  port: 80
-  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: OV-Germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 39 - wqrhwp
-  type: vless
-  server: sub.merky.top
-  port: 443
-  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sub.merky.top
-  network: ws
-  ws-opts:
-    path: /merky-connect/de6/
-    headers:
-      Host: sub.merky.top
-- name: 🇩🇪 德国 (Germany) 40 - wqrhwp
-  type: vless
-  server: 46.225.46.136
-  port: 2087
-  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hoert1rert.localip.ir
-  network: ws
-  ws-opts:
-    path: /hokm
-    headers:
-      Host: hoert1rert.localip.ir
-- name: 🇩🇪 德国 (Germany) 41 - wqrhwp
-  type: vless
-  server: 94.143.231.146
-  port: 443
-  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sub.merky.top
-  network: ws
-  ws-opts:
-    path: /merky-connect/de6/
-    headers:
-      Host: sub.merky.top
-- name: 🇩🇪 德国 (Germany) 42 - wqrhwp
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: 37857ebf-94bb-49a0-8ab9-548e64e57311
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: google.com
-  network: ws
-  ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: pan2e.global.ssl.fastly.net.
-- name: 🇩🇪 德国 (Germany) 43 - wqrhwp
-  type: vless
-  server: 178.104.248.34
+  server: tuyiuoyuthgfdbf.localip.ir
   port: 2087
   uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
   udp: true
@@ -536,7 +478,35 @@ proxies:
     path: /hokm
     headers:
       Host: tuyiuoyuthgfdbf.localip.ir
-- name: 🇩🇪 德国 (Germany) 44 - wqrhwp
+- name: 🇩🇪 德国 (Germany) 37 - wqrhwp
+  type: vless
+  server: sino.bestsellers1.site
+  port: 2083
+  uuid: 7858128a-6b5e-4f86-9bff-52c1f1e6439d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sino.bestsellers1.site
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sino.bestsellers1.site
+- name: 🇩🇪 德国 (Germany) 38 - wqrhwp
+  type: vless
+  server: 43.249.72.254
+  port: 443
+  uuid: f02e4193-8d89-452f-93d7-c6b133e82b9e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: default.ssl.fastly.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: henzoo.global.ssl.fastly.net
+- name: 🇩🇪 德国 (Germany) 39 - wqrhwp
   type: vless
   server: 157.230.101.36
   port: 443
@@ -550,282 +520,103 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🇩🇪 德国 (Germany) 45 - wqrhwp
+- name: 🇩🇪 德国 (Germany) 40 - wqrhwp
   type: vless
-  server: free.sahanwickramasinghe.me
-  port: 80
-  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
+  server: 43.249.72.254
+  port: 443
+  uuid: f02e4193-8d89-452f-93d7-c6b133e82b9e
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: default.ssl.fastly.net
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🇩🇪 德国 (Germany) 46 - wqrhwp
+      Host: henzoo.global.ssl.fastly.net
+- name: 🇩🇪 德国 (Germany) 41 - wqrhwp
   type: vless
-  server: 84.32.100.149
-  port: 443
-  uuid: 244d9eab-3311-40c7-b47f-4968dc3088a6
+  server: 178.104.248.34
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tuyiuoyuthgfdbf.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: tuyiuoyuthgfdbf.localip.ir
+- name: 🇩🇪 德国 (Germany) 42 - wqrhwp
+  type: vless
+  server: 172.67.130.187
+  port: 2083
+  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fans.liverpool.qzz.io
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiY0Y0cENQUmxsNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: fans.liverpool.qzz.io
+- name: 🇩🇪 德国 (Germany) 43 - wqrhwp
+  type: vless
+  server: 162.55.242.208
+  port: 2053
+  uuid: 659ffdfa-47d2-47d7-af40-5afe0907eead
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-  servername: tcpde7.figurapn.ru
-  client-fingerprint: chrome
+    public-key: jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇩🇪 德国 (Germany) 44 - wqrhwp
+  type: vless
+  server: 178.104.248.34
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tuyiuoyuthgfdbf.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: tuyiuoyuthgfdbf.localip.ir
+- name: 🇩🇪 德国 (Germany) 45 - wqrhwp
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: 497f5381-3533-4c6a-939c-66eb3a7de108
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn.topingr.ir
+  network: ws
+  ws-opts:
+    path: /gropcdn
+    headers:
+      Host: cdn.topingr.ir
+- name: 🇩🇪 德国 (Germany) 46 - wqrhwp
+  type: vless
+  server: 94.103.168.133
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fert6.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: fert6.localip.ir
 - name: 🇩🇪 德国 (Germany) 47 - wqrhwp
-  type: vless
-  server: 178.104.248.34
-  port: 2087
-  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tuyiuoyuthgfdbf.localip.ir
-  network: ws
-  ws-opts:
-    path: /hokm
-    headers:
-      Host: tuyiuoyuthgfdbf.localip.ir
-- name: 🇩🇪 德国 (Germany) 48 - wqrhwp
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: 37857ebf-94bb-49a0-8ab9-548e64e57311
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: google.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: pan2e.global.ssl.fastly.net.
-- name: 🇩🇪 德国 (Germany) 49 - wqrhwp
-  type: vless
-  server: ov-germany1.09vpn.com
-  port: 80
-  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 50 - wqrhwp
-  type: ss
-  server: 213.202.208.199
-  port: 7001
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-  udp: true
-- name: 🇩🇪 德国 (Germany) 51 - wqrhwp
-  type: vless
-  server: 77.221.157.213
-  port: 10443
-  uuid: 1d006ad5-1de1-4520-a5f4-875dae1b0a5d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 52 - wqrhwp
-  type: vless
-  server: 77.221.157.213
-  port: 14430
-  uuid: 1d006ad5-1de1-4520-a5f4-875dae1b0a5d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 77.221.157.213
-- name: 🇩🇪 德国 (Germany) 53 - wqrhwp
-  type: vless
-  server: 77.221.157.213
-  port: 10443
-  uuid: 1d006ad5-1de1-4520-a5f4-875dae1b0a5d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 54 - wqrhwp
-  type: vless
-  server: 178.104.248.34
-  port: 2087
-  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tuyiuoyuthgfdbf.localip.ir
-  network: ws
-  ws-opts:
-    path: /hokm
-    headers:
-      Host: tuyiuoyuthgfdbf.localip.ir
-- name: 🇩🇪 德国 (Germany) 55 - wqrhwp
-  type: vless
-  server: 46.225.46.136
-  port: 2087
-  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hoert1rert.localip.ir
-  network: ws
-  ws-opts:
-    path: /hokm
-    headers:
-      Host: hoert1rert.localip.ir
-- name: 🇩🇪 德国 (Germany) 56 - wqrhwp
-  type: vless
-  server: 178.104.248.34
-  port: 2087
-  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tuyiuoyuthgfdbf.localip.ir
-  network: ws
-  ws-opts:
-    path: /hokm
-    headers:
-      Host: tuyiuoyuthgfdbf.localip.ir
-- name: 🇩🇪 德国 (Germany) 57 - wqrhwp
-  type: vless
-  server: 77.221.157.213
-  port: 10443
-  uuid: 1d006ad5-1de1-4520-a5f4-875dae1b0a5d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 58 - wqrhwp
-  type: vless
-  server: 178.104.248.34
-  port: 2087
-  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tuyiuoyuthgfdbf.localip.ir
-  network: ws
-  ws-opts:
-    path: /hokm
-    headers:
-      Host: tuyiuoyuthgfdbf.localip.ir
-- name: 🇩🇪 德国 (Germany) 59 - wqrhwp
-  type: vless
-  server: 104.21.5.128
-  port: 2052
-  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-- name: 🇩🇪 德国 (Germany) 60 - wqrhwp
-  type: vless
-  server: uwu.blueknightnet.qzz.io
-  port: 2052
-  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-- name: 🇩🇪 德国 (Germany) 61 - wqrhwp
-  type: vless
-  server: 104.21.93.52
-  port: 2052
-  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-- name: 🇩🇪 德国 (Germany) 62 - wqrhwp
-  type: vless
-  server: 199.232.78.128
-  port: 443
-  uuid: 37857ebf-94bb-49a0-8ab9-548e64e57311
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: google.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: azdddaiji5.global.ssl.fastly.net.
-- name: 🇩🇪 德国 (Germany) 63 - wqrhwp
-  type: vless
-  server: 94.103.168.52
-  port: 2087
-  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fert1qswdfegrthy.localip.ir
-  network: ws
-  ws-opts:
-    path: /hokm
-    headers:
-      Host: fert1qswdfegrthy.localip.ir
-- name: 🇩🇪 德国 (Germany) 64 - wqrhwp
-  type: vless
-  server: 94.103.168.54
-  port: 2087
-  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fert3retujnbc.localip.ir
-  network: ws
-  ws-opts:
-    path: /hokm
-    headers:
-      Host: fert3retujnbc.localip.ir
-- name: 🇩🇪 德国 (Germany) 65 - wqrhwp
-  type: vless
-  server: 94.103.168.133
-  port: 2087
-  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fert6.localip.ir
-  network: ws
-  ws-opts:
-    path: /hokm
-    headers:
-      Host: fert6.localip.ir
-- name: 🇩🇪 德国 (Germany) 66 - wqrhwp
-  type: vless
-  server: 94.103.168.133
-  port: 2087
-  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fert6.localip.ir
-  network: ws
-  ws-opts:
-    path: /hokm
-    headers:
-      Host: fert6.localip.ir
-- name: 🇩🇪 德国 (Germany) 67 - wqrhwp
   type: vless
   server: fert6.localip.ir
   port: 2087
@@ -839,7 +630,7 @@ proxies:
     path: /hokm
     headers:
       Host: fert6.localip.ir
-- name: 🇩🇪 德国 (Germany) 68 - wqrhwp
+- name: 🇩🇪 德国 (Germany) 48 - wqrhwp
   type: vless
   server: 94.103.168.133
   port: 2087
@@ -853,6 +644,374 @@ proxies:
     path: /hokm
     headers:
       Host: fert6.localip.ir
+- name: 🇩🇪 德国 (Germany) 49 - wqrhwp
+  type: vless
+  server: hoert1rert.localip.ir
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: hoert1rert.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: hoert1rert.localip.ir
+- name: 🇩🇪 德国 (Germany) 50 - wqrhwp
+  type: vless
+  server: 94.103.168.133
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fert6.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: fert6.localip.ir
+- name: 🇩🇪 德国 (Germany) 51 - wqrhwp
+  type: vless
+  server: 43.249.72.255
+  port: 443
+  uuid: f02e4193-8d89-452f-93d7-c6b133e82b9e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: default.ssl.fastly.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: henzoo.global.ssl.fastly.net
+- name: 🇩🇪 德国 (Germany) 52 - wqrhwp
+  type: vless
+  server: 46.225.46.136
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: hoert1rert.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: hoert1rert.localip.ir
+- name: 🇩🇪 德国 (Germany) 53 - wqrhwp
+  type: vless
+  server: 178.104.248.34
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tuyiuoyuthgfdbf.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: tuyiuoyuthgfdbf.localip.ir
+- name: 🇩🇪 德国 (Germany) 54 - wqrhwp
+  type: vless
+  server: 57.129.41.216
+  port: 80
+  uuid: 18535741-e8b3-4b43-9348-785b55936751
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: 57.129.41.216
+- name: 🇩🇪 德国 (Germany) 55 - wqrhwp
+  type: ss
+  server: 185.226.172.8
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
+- name: 🇩🇪 德国 (Germany) 56 - wqrhwp
+  type: vless
+  server: cdn.topingr.ir
+  port: 443
+  uuid: 497f5381-3533-4c6a-939c-66eb3a7de108
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn.topingr.ir
+  network: ws
+  ws-opts:
+    path: /gropcdn
+    headers:
+      Host: cdn.topingr.ir
+- name: 🇩🇪 德国 (Germany) 57 - wqrhwp
+  type: vless
+  server: 46.225.46.136
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: hoert1rert.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: hoert1rert.localip.ir
+- name: 🇩🇪 德国 (Germany) 58 - wqrhwp
+  type: vless
+  server: 84.32.100.149
+  port: 443
+  uuid: 244d9eab-3311-40c7-b47f-4968dc3088a6
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+  servername: tcpde7.figurapn.ru
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 59 - wqrhwp
+  type: vless
+  server: 179.61.251.244
+  port: 7443
+  uuid: f95b160e-d716-4ac1-89d2-b16a5f3257e1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
+- name: 🇩🇪 德国 (Germany) 60 - wqrhwp
+  type: ss
+  server: 213.202.208.199
+  port: 5000
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇩🇪 德国 (Germany) 61 - wqrhwp
+  type: vless
+  server: cctvhikvision.center
+  port: 2053
+  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: uwu.blueknightnet.qzz.io
+  network: ws
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+- name: 🇩🇪 德国 (Germany) 62 - wqrhwp
+  type: vless
+  server: 94.103.168.52
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fert1qswdfegrthy.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: fert1qswdfegrthy.localip.ir
+- name: 🇩🇪 德国 (Germany) 63 - wqrhwp
+  type: vless
+  server: fert1qswdfegrthy.localip.ir
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fert1qswdfegrthy.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: fert1qswdfegrthy.localip.ir
+- name: 🇩🇪 德国 (Germany) 64 - wqrhwp
+  type: vless
+  server: freesocks.work
+  port: 2053
+  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: uwu.blueknightnet.qzz.io
+  network: ws
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+- name: 🇩🇪 德国 (Germany) 65 - wqrhwp
+  type: vless
+  server: 178.104.248.34
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tuyiuoyuthgfdbf.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: tuyiuoyuthgfdbf.localip.ir
+- name: 🇩🇪 德国 (Germany) 66 - wqrhwp
+  type: vless
+  server: cdn.topingr.ir
+  port: 443
+  uuid: 497f5381-3533-4c6a-939c-66eb3a7de108
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn.topingr.ir
+  network: ws
+  ws-opts:
+    path: /gropcdn
+    headers:
+      Host: cdn.topingr.ir
+- name: 🇩🇪 德国 (Germany) 67 - wqrhwp
+  type: vless
+  server: 178.104.248.34
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tuyiuoyuthgfdbf.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: tuyiuoyuthgfdbf.localip.ir
+- name: 🇩🇪 德国 (Germany) 68 - wqrhwp
+  type: vless
+  server: sino.bestsellers1.site
+  port: 2083
+  uuid: 7858128a-6b5e-4f86-9bff-52c1f1e6439d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sino.bestsellers1.site
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sino.bestsellers1.site
+- name: 🇩🇪 德国 (Germany) 69 - wqrhwp
+  type: vless
+  server: cdn.topingr.ir
+  port: 443
+  uuid: 497f5381-3533-4c6a-939c-66eb3a7de108
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn.topingr.ir
+  network: ws
+  ws-opts:
+    path: /gropcdn
+    headers:
+      Host: cdn.topingr.ir
+- name: 🇩🇪 德国 (Germany) 70 - wqrhwp
+  type: vless
+  server: 94.103.168.52
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fert1qswdfegrthy.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: fert1qswdfegrthy.localip.ir
+- name: 🇩🇪 德国 (Germany) 71 - wqrhwp
+  type: ss
+  server: 209.46.102.22
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: 1hhrqrokj3ag
+  udp: true
+- name: 🇩🇪 德国 (Germany) 72 - wqrhwp
+  type: vless
+  server: fert1qswdfegrthy.localip.ir
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fert1qswdfegrthy.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: fert1qswdfegrthy.localip.ir
+- name: 🇩🇪 德国 (Germany) 73 - wqrhwp
+  type: vless
+  server: 94.103.168.133
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fert6.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: fert6.localip.ir
+- name: 🇩🇪 德国 (Germany) 74 - wqrhwp
+  type: vless
+  server: fert6.localip.ir
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fert6.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: fert6.localip.ir
+- name: 🇩🇪 德国 (Germany) 75 - wqrhwp
+  type: vless
+  server: 172.67.130.187
+  port: 2053
+  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: FaNs.livErpoOl.qZZ.io
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiZXlpMnFWRURmWkp5ZCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: fans.liverpool.qzz.io
+- name: 🇩🇪 德国 (Germany) 76 - wqrhwp
+  type: vless
+  server: fert3retujnbc.localip.ir
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fert3retujnbc.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: fert3retujnbc.localip.ir
 proxy-groups:
 - name: PROXIES
   type: select
@@ -926,6 +1085,14 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 66 - wqrhwp
   - 🇩🇪 德国 (Germany) 67 - wqrhwp
   - 🇩🇪 德国 (Germany) 68 - wqrhwp
+  - 🇩🇪 德国 (Germany) 69 - wqrhwp
+  - 🇩🇪 德国 (Germany) 70 - wqrhwp
+  - 🇩🇪 德国 (Germany) 71 - wqrhwp
+  - 🇩🇪 德国 (Germany) 72 - wqrhwp
+  - 🇩🇪 德国 (Germany) 73 - wqrhwp
+  - 🇩🇪 德国 (Germany) 74 - wqrhwp
+  - 🇩🇪 德国 (Germany) 75 - wqrhwp
+  - 🇩🇪 德国 (Germany) 76 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -999,5 +1166,13 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 66 - wqrhwp
   - 🇩🇪 德国 (Germany) 67 - wqrhwp
   - 🇩🇪 德国 (Germany) 68 - wqrhwp
+  - 🇩🇪 德国 (Germany) 69 - wqrhwp
+  - 🇩🇪 德国 (Germany) 70 - wqrhwp
+  - 🇩🇪 德国 (Germany) 71 - wqrhwp
+  - 🇩🇪 德国 (Germany) 72 - wqrhwp
+  - 🇩🇪 德国 (Germany) 73 - wqrhwp
+  - 🇩🇪 德国 (Germany) 74 - wqrhwp
+  - 🇩🇪 德国 (Germany) 75 - wqrhwp
+  - 🇩🇪 德国 (Germany) 76 - wqrhwp
 rules:
 - MATCH,PROXIES
