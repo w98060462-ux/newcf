@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇿 CZ 01 - wqrhwp
+- name: 🇱🇻 LV 01 - wqrhwp
   type: vless
-  server: 162.159.153.4
+  server: cdn.topingr.ir
   port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  uuid: 497f5381-3533-4c6a-939c-66eb3a7de108
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: rayan-007.maxima.dpdns.org
+  servername: cdn.topingr.ir
   network: ws
   ws-opts:
-    path: /
+    path: /gropcdn
     headers:
-      Host: rayan-007.maxima.dpdns.org
+      Host: cdn.topingr.ir
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇿 CZ 01 - wqrhwp
+  - 🇱🇻 LV 01 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇿 CZ 01 - wqrhwp
+  - 🇱🇻 LV 01 - wqrhwp
 rules:
 - MATCH,PROXIES
