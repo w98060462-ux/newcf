@@ -5,6 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 RO 01 - wqrhwp
+  type: ss
+  server: 154.46.31.106
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: QFWzCw2uX9B9i6qAYeFBIE
+  udp: true
+- name: 🇷🇴 RO 02 - wqrhwp
   type: vless
   server: edge10.cyrionflare.com
   port: 2052
@@ -12,14 +19,14 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇷🇴 RO 02 - wqrhwp
+- name: 🇷🇴 RO 03 - wqrhwp
   type: ss
   server: 194.68.44.42
   port: 64546
   cipher: chacha20-ietf-poly1305
   password: U83u9OGpvSatIUW7LsWffr
   udp: true
-- name: 🇷🇴 RO 03 - wqrhwp
+- name: 🇷🇴 RO 04 - wqrhwp
   type: vless
   server: edge10.cyrionflare.com
   port: 2052
@@ -27,7 +34,7 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇷🇴 RO 04 - wqrhwp
+- name: 🇷🇴 RO 05 - wqrhwp
   type: vless
   server: edge10.cyrionflare.com
   port: 2052
@@ -44,6 +51,7 @@ proxy-groups:
   - 🇷🇴 RO 02 - wqrhwp
   - 🇷🇴 RO 03 - wqrhwp
   - 🇷🇴 RO 04 - wqrhwp
+  - 🇷🇴 RO 05 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -53,5 +61,6 @@ proxy-groups:
   - 🇷🇴 RO 02 - wqrhwp
   - 🇷🇴 RO 03 - wqrhwp
   - 🇷🇴 RO 04 - wqrhwp
+  - 🇷🇴 RO 05 - wqrhwp
 rules:
 - MATCH,PROXIES
