@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇱 IL 01 - wqrhwp
+- name: 🇺🇦 UA 01 - wqrhwp
   type: vless
-  server: 185.253.75.119
+  server: s3-ge.videocdnpink.video
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: b3a7fe26-2ea7-4aa1-ba7a-8ef37a1a71c5
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ccc.010304.xyz
+  servername: s3-ge.videocdnpink.video
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /api/53d53ac3/a7fa61/096357bebc62
     headers:
-      Host: ccc.010304.xyz
+      Host: s3-ge.videocdnpink.video
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇱 IL 01 - wqrhwp
+  - 🇺🇦 UA 01 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇱 IL 01 - wqrhwp
+  - 🇺🇦 UA 01 - wqrhwp
 rules:
 - MATCH,PROXIES
