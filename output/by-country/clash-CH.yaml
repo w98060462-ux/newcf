@@ -5,12 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇭 CH 01 - wqrhwp
-  type: ss
-  server: 132.243.175.144
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
+  type: vless
+  server: 57.129.130.10
+  port: 52014
+  uuid: bca740c6-6704-48ba-99da-7d7a31768d73
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
 - name: 🇨🇭 CH 02 - wqrhwp
   type: ss
   server: 132.243.175.144
@@ -18,30 +25,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
   udp: true
-- name: 🇨🇭 CH 03 - wqrhwp
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇨🇭 CH 04 - wqrhwp
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -49,8 +32,6 @@ proxy-groups:
   - AUTO
   - 🇨🇭 CH 01 - wqrhwp
   - 🇨🇭 CH 02 - wqrhwp
-  - 🇨🇭 CH 03 - wqrhwp
-  - 🇨🇭 CH 04 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -58,7 +39,5 @@ proxy-groups:
   proxies:
   - 🇨🇭 CH 01 - wqrhwp
   - 🇨🇭 CH 02 - wqrhwp
-  - 🇨🇭 CH 03 - wqrhwp
-  - 🇨🇭 CH 04 - wqrhwp
 rules:
 - MATCH,PROXIES
