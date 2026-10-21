@@ -33,31 +33,30 @@ proxies:
       Host: ccc.010304.xyz
 - name: 🇦🇪 阿联酋 (UAE) 03 - wqrhwp
   type: vless
-  server: 31.57.190.15
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇦🇪 阿联酋 (UAE) 04 - wqrhwp
-  type: vless
-  server: 185.253.116.33
-  port: 14430
-  uuid: aee7ae19-672f-49d8-8a92-aa7cdfc89f89
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vless
+    path: /
     headers:
-      Host: 185.253.116.33
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 04 - wqrhwp
+  type: vless
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 05 - wqrhwp
   type: vless
   server: uae.unixzone.us
@@ -73,32 +72,6 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 06 - wqrhwp
   type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 07 - wqrhwp
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 08 - wqrhwp
-  type: vless
   server: 31.57.190.89
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
@@ -111,22 +84,9 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🇦🇪 阿联酋 (UAE) 09 - wqrhwp
+- name: 🇦🇪 阿联酋 (UAE) 07 - wqrhwp
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 10 - wqrhwp
-  type: vless
-  server: 31.57.190.15
+  server: 31.57.190.89
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -135,7 +95,7 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
 proxy-groups:
@@ -150,9 +110,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - wqrhwp
   - 🇦🇪 阿联酋 (UAE) 06 - wqrhwp
   - 🇦🇪 阿联酋 (UAE) 07 - wqrhwp
-  - 🇦🇪 阿联酋 (UAE) 08 - wqrhwp
-  - 🇦🇪 阿联酋 (UAE) 09 - wqrhwp
-  - 🇦🇪 阿联酋 (UAE) 10 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -165,8 +122,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - wqrhwp
   - 🇦🇪 阿联酋 (UAE) 06 - wqrhwp
   - 🇦🇪 阿联酋 (UAE) 07 - wqrhwp
-  - 🇦🇪 阿联酋 (UAE) 08 - wqrhwp
-  - 🇦🇪 阿联酋 (UAE) 09 - wqrhwp
-  - 🇦🇪 阿联酋 (UAE) 10 - wqrhwp
 rules:
 - MATCH,PROXIES
