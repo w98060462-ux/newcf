@@ -5,29 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇷 法国 (France) 01 - wqrhwp
-  type: vless
-  server: 51.44.38.228
-  port: 22224
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 02 - wqrhwp
-  type: vmess
-  server: 145.239.55.210
-  port: 80
-  uuid: 067fcd63-b215-4abd-8529-ae929a9971a9
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-- name: 🇫🇷 法国 (France) 03 - wqrhwp
   type: vmess
   server: 162.19.204.71
   port: 1234
@@ -38,15 +15,26 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: ''
-- name: 🇫🇷 法国 (France) 04 - wqrhwp
+- name: 🇫🇷 法国 (France) 02 - wqrhwp
+  type: vmess
+  server: 141.95.65.9
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇫🇷 法国 (France) 03 - wqrhwp
   type: vless
-  server: 35.180.76.81
+  server: 51.44.38.228
   port: 22224
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 05 - wqrhwp
+- name: 🇫🇷 法国 (France) 04 - wqrhwp
   type: vmess
   server: 57.128.164.21
   port: 80
@@ -61,7 +49,26 @@ proxies:
     path: /d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560
     headers:
       Host: https.http.www.net.com.ramseyv2.ir.
+- name: 🇫🇷 法国 (France) 05 - wqrhwp
+  type: vmess
+  server: 162.19.204.71
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
 - name: 🇫🇷 法国 (France) 06 - wqrhwp
+  type: vless
+  server: 51.44.38.228
+  port: 22222
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 07 - wqrhwp
   type: vmess
   server: 54.37.131.126
   port: 80
@@ -76,6 +83,14 @@ proxies:
     path: /
     headers:
       Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+- name: 🇫🇷 法国 (France) 08 - wqrhwp
+  type: vless
+  server: 51.44.38.228
+  port: 22224
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -87,6 +102,8 @@ proxy-groups:
   - 🇫🇷 法国 (France) 04 - wqrhwp
   - 🇫🇷 法国 (France) 05 - wqrhwp
   - 🇫🇷 法国 (France) 06 - wqrhwp
+  - 🇫🇷 法国 (France) 07 - wqrhwp
+  - 🇫🇷 法国 (France) 08 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -98,5 +115,7 @@ proxy-groups:
   - 🇫🇷 法国 (France) 04 - wqrhwp
   - 🇫🇷 法国 (France) 05 - wqrhwp
   - 🇫🇷 法国 (France) 06 - wqrhwp
+  - 🇫🇷 法国 (France) 07 - wqrhwp
+  - 🇫🇷 法国 (France) 08 - wqrhwp
 rules:
 - MATCH,PROXIES

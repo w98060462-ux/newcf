@@ -5,6 +5,78 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - wqrhwp
+  type: vless
+  server: 526.150333.xyz
+  port: 21001
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - wqrhwp
+  type: vless
+  server: 526.150333.xyz
+  port: 21002
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+  servername: www.cloudflare.com
+  client-fingerprint: edge
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - wqrhwp
+  type: vless
+  server: 526.150333.xyz
+  port: 21002
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - wqrhwp
+  type: vless
+  server: 526.150333.xyz
+  port: 21002
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+  servername: www.cloudflare.com
+  client-fingerprint: safari
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - wqrhwp
+  type: vless
+  server: 526.150333.xyz
+  port: 21001
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+  servername: www.cloudflare.com
+  client-fingerprint: safari
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - wqrhwp
+  type: vless
+  server: 526.150333.xyz
+  port: 21002
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+  servername: www.cloudflare.com
+  client-fingerprint: ios
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - wqrhwp
   type: vmess
   server: 8.218.195.61
   port: 443
@@ -20,7 +92,19 @@ proxies:
     path: /ws-vmess
     headers:
       Host: EX1oGt73NzPQKAc2.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - wqrhwp
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - wqrhwp
+  type: vless
+  server: 526.150333.xyz
+  port: 21002
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - wqrhwp
   type: vless
   server: 47.238.210.5
   port: 13779
@@ -32,7 +116,19 @@ proxies:
     public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
   servername: tesla.com
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - wqrhwp
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - wqrhwp
+  type: vless
+  server: 526.150333.xyz
+  port: 21004
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 11 - wqrhwp
   type: vless
   server: 526.150333.xyz
   port: 21001
@@ -43,8 +139,32 @@ proxies:
   reality-opts:
     public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
   servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - wqrhwp
+  client-fingerprint: firefox
+- name: 🇭🇰 中国香港 (Hong Kong) 12 - wqrhwp
+  type: vless
+  server: 526.150333.xyz
+  port: 21002
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+  servername: www.cloudflare.com
+  client-fingerprint: qq
+- name: 🇭🇰 中国香港 (Hong Kong) 13 - wqrhwp
+  type: vless
+  server: 526.150333.xyz
+  port: 21001
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+  servername: www.cloudflare.com
+  client-fingerprint: qq
+- name: 🇭🇰 中国香港 (Hong Kong) 14 - wqrhwp
   type: vmess
   server: 156.245.232.239
   port: 35043
@@ -59,10 +179,22 @@ proxies:
     path: /
     headers:
       Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - wqrhwp
+- name: 🇭🇰 中国香港 (Hong Kong) 15 - wqrhwp
   type: vless
   server: 526.150333.xyz
-  port: 21002
+  port: 21003
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+  servername: www.cloudflare.com
+  client-fingerprint: edge
+- name: 🇭🇰 中国香港 (Hong Kong) 16 - wqrhwp
+  type: vless
+  server: 526.150333.xyz
+  port: 21003
   uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
   udp: true
   tls: true
@@ -81,6 +213,17 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 03 - wqrhwp
   - 🇭🇰 中国香港 (Hong Kong) 04 - wqrhwp
   - 🇭🇰 中国香港 (Hong Kong) 05 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 06 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 07 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 08 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 09 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 10 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 11 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 12 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 13 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 14 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 15 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 16 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -91,5 +234,16 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 03 - wqrhwp
   - 🇭🇰 中国香港 (Hong Kong) 04 - wqrhwp
   - 🇭🇰 中国香港 (Hong Kong) 05 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 06 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 07 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 08 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 09 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 10 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 11 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 12 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 13 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 14 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 15 - wqrhwp
+  - 🇭🇰 中国香港 (Hong Kong) 16 - wqrhwp
 rules:
 - MATCH,PROXIES
