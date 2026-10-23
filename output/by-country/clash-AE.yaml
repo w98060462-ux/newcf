@@ -6,30 +6,32 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - wqrhwp
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 31.57.190.89
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chromefp=chrome
     headers:
-      Host: uae.unixzone.us
+      Host: ccc.010304.xyz
 - name: 🇦🇪 阿联酋 (UAE) 02 - wqrhwp
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 31.57.190.89
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
-      Host: uae.unixzone.us
+      Host: ccc.010304.xyz
 - name: 🇦🇪 阿联酋 (UAE) 03 - wqrhwp
   type: vless
   server: 95.174.68.188
@@ -67,24 +69,64 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp=chromefp=chrome
+    path: /
     headers:
       Host: ccc.010304.xyz
 - name: 🇦🇪 阿联酋 (UAE) 06 - wqrhwp
   type: vless
-  server: 31.57.190.89
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 07 - wqrhwp
+  type: vless
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 08 - wqrhwp
+  type: vless
+  server: 162.159.228.255
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: b135a1e0-ebdb-4d46-b3fa-bd1e78580244
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ccc.010304.xyz
+  servername: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /@Marisa_kristi
     headers:
-      Host: ccc.010304.xyz
-- name: 🇦🇪 阿联酋 (UAE) 07 - wqrhwp
+      Host: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 09 - wqrhwp
+  type: vless
+  server: 128.241.25.3
+  port: 30021
+  uuid: afec813e-a5c7-432d-be48-2803c30eea4e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 10 - wqrhwp
   type: vless
   server: 95.174.68.188
   port: 14430
@@ -97,21 +139,7 @@ proxies:
     path: /vless
     headers:
       Host: 95.174.68.188
-- name: 🇦🇪 阿联酋 (UAE) 08 - wqrhwp
-  type: vless
-  server: 31.57.190.89
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇦🇪 阿联酋 (UAE) 09 - wqrhwp
+- name: 🇦🇪 阿联酋 (UAE) 11 - wqrhwp
   type: vless
   server: 185.253.116.33
   port: 14430
@@ -138,6 +166,8 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 07 - wqrhwp
   - 🇦🇪 阿联酋 (UAE) 08 - wqrhwp
   - 🇦🇪 阿联酋 (UAE) 09 - wqrhwp
+  - 🇦🇪 阿联酋 (UAE) 10 - wqrhwp
+  - 🇦🇪 阿联酋 (UAE) 11 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -152,5 +182,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 07 - wqrhwp
   - 🇦🇪 阿联酋 (UAE) 08 - wqrhwp
   - 🇦🇪 阿联酋 (UAE) 09 - wqrhwp
+  - 🇦🇪 阿联酋 (UAE) 10 - wqrhwp
+  - 🇦🇪 阿联酋 (UAE) 11 - wqrhwp
 rules:
 - MATCH,PROXIES
