@@ -4,31 +4,29 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇳 CN 01 - wqrhwp
+- name: 🇦🇿 AZ 01 - wqrhwp
   type: vless
-  server: vpn.cintaku.qzz.io
+  server: 94.20.141.53
   port: 443
-  uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
+  uuid: f439e4fe-139b-4882-ad8b-a16176d09c88
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: vpn.cintaku.qzz.io
-  network: ws
-  ws-opts:
-    path: /vlessws
-    headers:
-      Host: vpn.cintaku.qzz.io
+  reality-opts:
+    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+  servername: eu63.cdn77.icu
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇳 CN 01 - wqrhwp
+  - 🇦🇿 AZ 01 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇳 CN 01 - wqrhwp
+  - 🇦🇿 AZ 01 - wqrhwp
 rules:
 - MATCH,PROXIES
