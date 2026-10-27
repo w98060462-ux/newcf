@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇲🇽 MX 01 - wqrhwp
   type: vless
-  server: 149.104.90.21
+  server: mx001.zestapp778.com
   port: 19167
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
@@ -24,13 +24,13 @@ proxies:
   servername: mx001.zestapp778.com
 - name: 🇲🇽 MX 03 - wqrhwp
   type: vless
-  server: 149.104.90.21
+  server: mx001.zestapp778.com
   port: 19167
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 149.104.90.21
+  servername: mx001.zestapp778.com
 - name: 🇲🇽 MX 04 - wqrhwp
   type: vless
   server: mx001.zestapp778.com
@@ -42,7 +42,7 @@ proxies:
   servername: mx001.zestapp778.com
 - name: 🇲🇽 MX 05 - wqrhwp
   type: vless
-  server: mx001.zestapp778.com
+  server: 149.104.90.21
   port: 19167
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
@@ -51,16 +51,7 @@ proxies:
   servername: mx001.zestapp778.com
 - name: 🇲🇽 MX 06 - wqrhwp
   type: vless
-  server: mx001.zestapp778.com
-  port: 19167
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: mx001.zestapp778.com
-- name: 🇲🇽 MX 07 - wqrhwp
-  type: vless
-  server: mx001.zestapp778.com
+  server: 149.104.90.21
   port: 19167
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
@@ -78,7 +69,6 @@ proxy-groups:
   - 🇲🇽 MX 04 - wqrhwp
   - 🇲🇽 MX 05 - wqrhwp
   - 🇲🇽 MX 06 - wqrhwp
-  - 🇲🇽 MX 07 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -90,6 +80,5 @@ proxy-groups:
   - 🇲🇽 MX 04 - wqrhwp
   - 🇲🇽 MX 05 - wqrhwp
   - 🇲🇽 MX 06 - wqrhwp
-  - 🇲🇽 MX 07 - wqrhwp
 rules:
 - MATCH,PROXIES
