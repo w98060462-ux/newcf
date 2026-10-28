@@ -6,16 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇴 NO 01 - wqrhwp",
-        "🇳🇴 NO 02 - wqrhwp"
+        "🇸🇨 SC 01 - wqrhwp",
+        "🇸🇨 SC 02 - wqrhwp"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇴 NO 01 - wqrhwp",
-        "🇳🇴 NO 02 - wqrhwp"
+        "🇸🇨 SC 01 - wqrhwp",
+        "🇸🇨 SC 02 - wqrhwp"
       ],
       "url": "https://www.google.com/generate_204"
     },
