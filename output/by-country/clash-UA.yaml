@@ -32,6 +32,34 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP
   udp: true
+- name: 🇺🇦 UA 04 - wqrhwp
+  type: vless
+  server: 216.24.57.225
+  port: 2083
+  uuid: 3bcbd7ef-e05b-4745-a1de-5ecf98dd2fb6
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: pol.netvia.ir
+  network: ws
+  ws-opts:
+    path: /wss
+    headers:
+      Host: pol.netvia.ir
+- name: 🇺🇦 UA 05 - wqrhwp
+  type: vless
+  server: 216.24.57.225
+  port: 2083
+  uuid: 3bcbd7ef-e05b-4745-a1de-5ecf98dd2fb6
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: pol.netvia.ir
+  network: ws
+  ws-opts:
+    path: /wss
+    headers:
+      Host: pol.netvia.ir
 proxy-groups:
 - name: PROXIES
   type: select
@@ -40,6 +68,8 @@ proxy-groups:
   - 🇺🇦 UA 01 - wqrhwp
   - 🇺🇦 UA 02 - wqrhwp
   - 🇺🇦 UA 03 - wqrhwp
+  - 🇺🇦 UA 04 - wqrhwp
+  - 🇺🇦 UA 05 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -48,5 +78,7 @@ proxy-groups:
   - 🇺🇦 UA 01 - wqrhwp
   - 🇺🇦 UA 02 - wqrhwp
   - 🇺🇦 UA 03 - wqrhwp
+  - 🇺🇦 UA 04 - wqrhwp
+  - 🇺🇦 UA 05 - wqrhwp
 rules:
 - MATCH,PROXIES
