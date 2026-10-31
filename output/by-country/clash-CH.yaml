@@ -6,16 +6,13 @@ log-level: info
 proxies:
 - name: 🇨🇭 CH 01 - wqrhwp
   type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  server: 149.33.15.213
+  port: 443
+  uuid: 054362fb-e485-4a3f-9568-4c5b0f60e074
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: chrome
+  servername: swz.proxyplankton.ru
 - name: 🇨🇭 CH 02 - wqrhwp
   type: vless
   server: 208.69.78.217
@@ -63,7 +60,7 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: firefox
 - name: 🇨🇭 CH 06 - wqrhwp
   type: vless
   server: 208.69.78.217
@@ -75,8 +72,20 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇨🇭 CH 07 - wqrhwp
+  type: vless
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇨🇭 CH 08 - wqrhwp
   type: vless
   server: 149.33.15.213
   port: 443
@@ -97,6 +106,7 @@ proxy-groups:
   - 🇨🇭 CH 05 - wqrhwp
   - 🇨🇭 CH 06 - wqrhwp
   - 🇨🇭 CH 07 - wqrhwp
+  - 🇨🇭 CH 08 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -109,5 +119,6 @@ proxy-groups:
   - 🇨🇭 CH 05 - wqrhwp
   - 🇨🇭 CH 06 - wqrhwp
   - 🇨🇭 CH 07 - wqrhwp
+  - 🇨🇭 CH 08 - wqrhwp
 rules:
 - MATCH,PROXIES
