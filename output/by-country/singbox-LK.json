@@ -6,14 +6,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇪 SE 01 - wqrhwp"
+        "🇱🇰 LK 01 - wqrhwp",
+        "🇱🇰 LK 02 - wqrhwp",
+        "🇱🇰 LK 03 - wqrhwp",
+        "🇱🇰 LK 04 - wqrhwp",
+        "🇱🇰 LK 05 - wqrhwp"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇪 SE 01 - wqrhwp"
+        "🇱🇰 LK 01 - wqrhwp",
+        "🇱🇰 LK 02 - wqrhwp",
+        "🇱🇰 LK 03 - wqrhwp",
+        "🇱🇰 LK 04 - wqrhwp",
+        "🇱🇰 LK 05 - wqrhwp"
       ],
       "url": "https://www.google.com/generate_204"
     },
