@@ -28,54 +28,6 @@ proxies:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
   client-fingerprint: random
-- name: 🇨🇭 CH 03 - wqrhwp
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇨🇭 CH 04 - wqrhwp
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: random
-- name: 🇨🇭 CH 05 - wqrhwp
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇨🇭 CH 06 - wqrhwp
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -83,10 +35,6 @@ proxy-groups:
   - AUTO
   - 🇨🇭 CH 01 - wqrhwp
   - 🇨🇭 CH 02 - wqrhwp
-  - 🇨🇭 CH 03 - wqrhwp
-  - 🇨🇭 CH 04 - wqrhwp
-  - 🇨🇭 CH 05 - wqrhwp
-  - 🇨🇭 CH 06 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -94,9 +42,5 @@ proxy-groups:
   proxies:
   - 🇨🇭 CH 01 - wqrhwp
   - 🇨🇭 CH 02 - wqrhwp
-  - 🇨🇭 CH 03 - wqrhwp
-  - 🇨🇭 CH 04 - wqrhwp
-  - 🇨🇭 CH 05 - wqrhwp
-  - 🇨🇭 CH 06 - wqrhwp
 rules:
 - MATCH,PROXIES
