@@ -22,7 +22,7 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇨🇭 CH 03 - wqrhwp
   type: vless
   server: 208.69.78.217
@@ -34,7 +34,7 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇨🇭 CH 04 - wqrhwp
   type: vless
   server: 208.69.78.217
@@ -77,8 +77,20 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇨🇭 CH 08 - wqrhwp
+  type: vless
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇨🇭 CH 09 - wqrhwp
   type: ss
   server: 186.190.215.251
   port: 19999
@@ -98,6 +110,7 @@ proxy-groups:
   - 🇨🇭 CH 06 - wqrhwp
   - 🇨🇭 CH 07 - wqrhwp
   - 🇨🇭 CH 08 - wqrhwp
+  - 🇨🇭 CH 09 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -111,5 +124,6 @@ proxy-groups:
   - 🇨🇭 CH 06 - wqrhwp
   - 🇨🇭 CH 07 - wqrhwp
   - 🇨🇭 CH 08 - wqrhwp
+  - 🇨🇭 CH 09 - wqrhwp
 rules:
 - MATCH,PROXIES
