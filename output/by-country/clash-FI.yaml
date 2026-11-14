@@ -19,32 +19,6 @@ proxies:
       Host: 45.144.234.157
 - name: 🇫🇮 FI 02 - wqrhwp
   type: vless
-  server: 146.103.118.189
-  port: 443
-  uuid: ce698f0c-a8ec-474a-b5d8-3be8032deeb8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nl2.574ck.xyz
-  network: ws
-  ws-opts:
-    path: /574ck-finland
-    headers:
-      Host: nl2.574ck.xyz
-- name: 🇫🇮 FI 03 - wqrhwp
-  type: vless
-  server: s1.berluno.ir
-  port: 1155
-  uuid: 3c999d74-d578-4deb-8683-b017bf6598f0
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: o6UTWdONnTOvDOWmhfxXUoeOEtlw7VUkoAWkmOk_FWI
-  servername: tgju.org
-  client-fingerprint: edge
-- name: 🇫🇮 FI 04 - wqrhwp
-  type: vless
   server: 45.144.234.157
   port: 14430
   uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
@@ -56,7 +30,7 @@ proxies:
     path: /vless
     headers:
       Host: 45.144.234.157
-- name: 🇫🇮 FI 05 - wqrhwp
+- name: 🇫🇮 FI 03 - wqrhwp
   type: vless
   server: 45.144.234.157
   port: 14430
@@ -77,8 +51,6 @@ proxy-groups:
   - 🇫🇮 FI 01 - wqrhwp
   - 🇫🇮 FI 02 - wqrhwp
   - 🇫🇮 FI 03 - wqrhwp
-  - 🇫🇮 FI 04 - wqrhwp
-  - 🇫🇮 FI 05 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -87,7 +59,5 @@ proxy-groups:
   - 🇫🇮 FI 01 - wqrhwp
   - 🇫🇮 FI 02 - wqrhwp
   - 🇫🇮 FI 03 - wqrhwp
-  - 🇫🇮 FI 04 - wqrhwp
-  - 🇫🇮 FI 05 - wqrhwp
 rules:
 - MATCH,PROXIES
