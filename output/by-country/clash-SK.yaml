@@ -4,31 +4,29 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇸🇨 SC 01 - wqrhwp
+- name: 🇸🇰 SK 01 - wqrhwp
   type: vless
-  server: 154.211.8.227
-  port: 2087
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
+  server: bbcdd4t.de-p2.h1clayd.click
+  port: 443
+  uuid: 4618cebd-e1e9-45c3-be98-d9d6e3ee8bef
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: proxy-34l.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: proxy-34l.pages.dev
+  reality-opts:
+    public-key: n9cdr2Qf9h3S_jf5Rcd15fl-4fxuztHvlexE7G-QvW8
+  servername: bbcdd4t.de-p2.h1clayd.click
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇸🇨 SC 01 - wqrhwp
+  - 🇸🇰 SK 01 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇸🇨 SC 01 - wqrhwp
+  - 🇸🇰 SK 01 - wqrhwp
 rules:
 - MATCH,PROXIES
