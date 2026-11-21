@@ -6,16 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇺 澳大利亚 (Australia) 01 - wqrhwp",
-        "🇦🇺 澳大利亚 (Australia) 02 - wqrhwp"
+        "🇵🇱 PL 01 - wqrhwp",
+        "🇵🇱 PL 02 - wqrhwp"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇺 澳大利亚 (Australia) 01 - wqrhwp",
-        "🇦🇺 澳大利亚 (Australia) 02 - wqrhwp"
+        "🇵🇱 PL 01 - wqrhwp",
+        "🇵🇱 PL 02 - wqrhwp"
       ],
       "url": "https://www.google.com/generate_204"
     },
