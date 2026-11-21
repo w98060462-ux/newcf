@@ -6,16 +6,18 @@ log-level: info
 proxies:
 - name: 🇸🇪 SE 01 - wqrhwp
   type: vless
-  server: 88.216.214.159
+  server: 92.223.84.254
   port: 443
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  uuid: 740b2630-b42d-425c-bacd-37e7e30d78f1
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-  servername: api-svc-mgr.galioncc.com
-  client-fingerprint: chrome
+  servername: subgift.gcorecdn.com
+  network: ws
+  ws-opts:
+    path: /t.me-SubGift
+    headers:
+      Host: subgift.gcorecdn.com
 - name: 🇸🇪 SE 02 - wqrhwp
   type: ss
   server: 138.199.55.243
