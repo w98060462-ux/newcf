@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇨🇭 CH 01 - wqrhwp
   type: ss
-  server: leviko-ch7557.shopingggg.ir
+  server: 79.127.184.104
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -25,20 +25,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇨🇭 CH 04 - wqrhwp
-  type: ss
-  server: 79.127.184.104
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇨🇭 CH 05 - wqrhwp
-  type: ss
-  server: 208.69.78.133
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: ncIkubmoDGsl
-  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -47,8 +33,6 @@ proxy-groups:
   - 🇨🇭 CH 01 - wqrhwp
   - 🇨🇭 CH 02 - wqrhwp
   - 🇨🇭 CH 03 - wqrhwp
-  - 🇨🇭 CH 04 - wqrhwp
-  - 🇨🇭 CH 05 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -57,7 +41,5 @@ proxy-groups:
   - 🇨🇭 CH 01 - wqrhwp
   - 🇨🇭 CH 02 - wqrhwp
   - 🇨🇭 CH 03 - wqrhwp
-  - 🇨🇭 CH 04 - wqrhwp
-  - 🇨🇭 CH 05 - wqrhwp
 rules:
 - MATCH,PROXIES

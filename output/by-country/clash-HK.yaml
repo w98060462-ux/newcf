@@ -5,20 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - wqrhwp
-  type: vless
-  server: 104.21.89.181
-  port: 443
-  uuid: a25a71d1-10ed-4383-855a-f269a34ca691
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ave-qualifications-choices-populations.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: /a8b8606819ef
-    headers:
-      Host: ave-qualifications-choices-populations.trycloudflare.com
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - wqrhwp
   type: vmess
   server: 47.244.120.197
   port: 36703
@@ -33,7 +19,7 @@ proxies:
     path: /arki?ed=2048
     headers:
       Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - wqrhwp
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - wqrhwp
   type: ss
   server: 213.176.92.148
   port: 40647
@@ -47,7 +33,6 @@ proxy-groups:
   - AUTO
   - 🇭🇰 中国香港 (Hong Kong) 01 - wqrhwp
   - 🇭🇰 中国香港 (Hong Kong) 02 - wqrhwp
-  - 🇭🇰 中国香港 (Hong Kong) 03 - wqrhwp
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -55,6 +40,5 @@ proxy-groups:
   proxies:
   - 🇭🇰 中国香港 (Hong Kong) 01 - wqrhwp
   - 🇭🇰 中国香港 (Hong Kong) 02 - wqrhwp
-  - 🇭🇰 中国香港 (Hong Kong) 03 - wqrhwp
 rules:
 - MATCH,PROXIES
